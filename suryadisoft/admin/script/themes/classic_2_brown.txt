@@ -1,0 +1,43 @@
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Preview Images','preview_classic_2_brown.jpg')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Body BGColor','#FFFFFF')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Tab Active Color','#663300')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Tab Inactive Color','#855C33')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Tab Font Color','#FFFFFF')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Tab Font Face','Verdana, Arial, Helvetica, sans-serif')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Tab Font Size','10pt')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Bar 1 Color','#663300')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Bar 2 Color','#855C33')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Table Header Background','#855C33')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Table Header Font Color','#000000')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Table Header Font Face','Verdana, Arial, Helvetica, sans-serif')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Table Header Font Size','10pt')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Table Border Color','#855C33')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Table Background','#FFFFFF')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Font Face','Verdana, Arial, Helvetica, sans-serif')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Font Size','10pt')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Font Color','black')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Link Color','#000000')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Visited Link Color','#663300')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Active Link Color','#855C33')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic_2','brown','Icon Color','#663300')

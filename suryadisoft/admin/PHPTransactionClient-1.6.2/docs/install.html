@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>Paygateway Plug v1.6.1 Installation Guide</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<table border="0" width="100%" cellpadding="1" cellspacing="0">
+  <tr> 
+    <td align="right" valign="top" rowspan="3"><em> <b><i>PHP Transaction Client 
+      v1.6.1 API Specification</i></b></em> </td>
+  </tr>
+</table>
+<hr>
+<h2>Installation Guide</h2>
+<table width="300" border="1" cellspacing="2" cellpadding="2">
+  <tr> 
+    <td><font color="#FF0000"><b>WARNING:</b> PHP may be installed as a module 
+      for a web server, or as a CGI executable. The SAPI modules are unstable 
+      at the time of this release. It is advised to use the CGI executable version 
+      of PHP.</font> </td>
+  </tr>
+</table>
+<h2>Requirements</h2>
+<p>The PHP Plug requires:</p>
+<ul>
+  <li><a href="http://www.php.net/">PHP 4</a> or newer.</li>
+  <li><a href="http://www.openssl.org/">OpenSSL</a>.</li>
+  <li><a href="http://curl.haxx.se/">cURL</a> module for PHP.</li>
+  <li>A web server configured to process PHP documents.</li>
+  <li>Port 443 must be open for bi-directional HTTPS TCP/IP traffic. Make sure 
+    your firewall does not block this port. </li>
+</ul>
+<h3> <br>
+  Installation</h3>
+<ol>
+  <li>Make sure you have met the requirements for the PHP Plug as described above. 
+  </li>
+  <li>Create a directory called <code>/paygateway</code> on the document path of the web server.</li>
+  <li>Copy <code>Paygateway.php</code>, <code>CountryCodes.php</code>, <code>demopaypage.html</code> 
+    and <code>doTransaction.php</code> to <code>/paygateway</code>.</li>
+  <li><code>Paygateway.php</code> is the only file you need to develop your own 
+    PHP applications that use the Paygateway Payment Service. <code>CountryCodes.php</code> 
+    provides a mapping of country names to their two character country codes. 
+    The other two files are a sample to demonstrate the use of the PHP Plug and 
+    to test your system. Navigate to the <code>demopaypage.html</code> page using 
+    a web browser. This will present you with a test page. Click on the submit 
+    button to attempt a test transaction using the Paygateway Payment Service. 
+    You should see results similar to those shown in the screen shot below.</li>
+  <li>You can now use the sample code as an example of how to integrate the PHP 
+    Plug into your existing order page. It is recommended that you serve your 
+    order page to clients via a secure connection. I.e.. Use the https protocol 
+    to serve the page where the customer will enter their credit card information. 
+    This will provide the necessary encryption between your customer and your 
+    web server. The <i>PHP Transaction Client</i> handles the encryption between 
+    your web server and the Paygateway Payment Service.<br>
+  </li>
+</ol>
+<table width="75%" border="0" cellspacing="2" cellpadding="2">
+  <tr>
+    <td>
+      <div align="center"><a href="Paygateway/doc-files/success.gif"><img src="Paygateway/doc-files/success_tn.gif" width="400" height="424" border="0"></a><br>
+        <b>Figure 1: Successful Test Transaction</b> </div>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p><br>
+</p>
+</body>
+</html>

@@ -1,0 +1,17 @@
+INSERT INTO AUBADE (product_id , sequence) SELECT product_id , sequence FROM trial7_db.AUBADE
+
+INSERT INTO AUBADE_BAHIA_COLLECTION (product_id , sequence) SELECT product_id , sequence FROM trial7_db.AUBADE_BAHIA_COLLECTION
+
+INSERT INTO AUBADE_EMOTION_COLLECTION (product_id , sequence) SELECT product_id , sequence FROM trial7_db.AUBADE_EMOTION_COLLECTION
+
+INSERT INTO AUBADE_STRING_MINIMUM_COLLECTION (product_id , sequence) SELECT product_id , sequence FROM trial7_db.AUBADE_STRING_MINIMUM_COLLECTION
+
+INSERT INTO AUBADE_TULIPS_COLLECTION (product_id , sequence) SELECT product_id , sequence FROM trial7_db.AUBADE_TULIPS_COLLECTION
+
+INSERT INTO BEST_SELLERS (product_id , sequence) SELECT product_id , sequence FROM trial7_db.BEST_SELLERS
+
+INSERT INTO CLEARANCE (product_id , sequence) SELECT product_id , sequence FROM trial7_db.CLEARANCE
+
+INSERT INTO NEW_RELEASES (product_id , sequence) SELECT product_id , sequence FROM trial7_db.NEW_RELEASES
+
+INSERT INTO THIS_WEEKS_FEATURED_LINGERIE_FROM_SHIRLEY_OF_HOLLYWOOD (product_id , sequence) SELECT product_id , sequence FROM trial7_db.THIS_WEEKS_FEATURED_LINGERIE_FROM_SHIRLEY_OF_HOLLYWOOD

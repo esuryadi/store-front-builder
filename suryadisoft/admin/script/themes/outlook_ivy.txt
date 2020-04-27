@@ -1,0 +1,39 @@
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Preview Images','preview_outlook_ivy.jpg')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Body BGColor','#FFFFFF')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Menu Font Color','#FFFFFF')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Menu Font Face','Verdana, Arial, Helvetica, sans-serif')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Menu Font Size','10pt')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Bar 1 Color','#336600')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Menu BGColor','#CCCC99')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Table Header Background','#CCCC99')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Table Header Font Color','#000000')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Table Header Font Face','Verdana, Arial, Helvetica, sans-serif')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Table Header Font Size','10pt')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Table Border Color','#CCCC99')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Table Background','#FFFFFF')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Font Face','Verdana, Arial, Helvetica, sans-serif')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Font Size','10pt')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Font Color','black')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Link Color','black')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Visited Link Color','#336600')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Active Link Color','#336600')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('outlook','ivy','Icon Color','#336600')

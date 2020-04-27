@@ -1,0 +1,37 @@
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Preview Images','preview_techno_blue_metallic.jpg')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Body BGColor','#FFFFFF')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Table Header Background','bg_gradient-red.gif')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Table Header Font Color','black')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Table Border Color','#FF7F86')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Table Background','white')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Table Header Font Face','Verdana, Arial, Helvetica, sans-serif')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Table Header Font Size','10pt')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Tab Font Face','Verdana, Arial, Helvetica, sans-serif')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Tab Font Size','10pt')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Tab Font Color','white')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Bar 1 Color','bg_gradient-blue.gif')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Icon Color','#6580F0')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Font Face','Verdana, Arial, Helvetica, sans-serif')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Font Size','10pt')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Font Color','black')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Link Color','#000000')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Visited Link Color','#6580F0')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('techno','blue metallic','Active Link Color','#6580F0')

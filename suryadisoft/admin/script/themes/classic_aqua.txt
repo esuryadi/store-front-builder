@@ -1,0 +1,47 @@
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Preview Images','preview_classic_aqua.jpg')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Body BGColor','#FFFFFF')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Tab Active Color','#006699')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Tab Inactive Color','#99C2D6')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Tab Over Color','#CCE0EB')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Tab Font Color','#FFFFFF')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Tab Font Face','Verdana, Arial, Helvetica, sans-serif')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Tab Font Size','10pt')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Bar 1 Color','#006699')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Bar 2 Color','#99C2D6')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Bar 3 Color','#CCE0EB')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Table Header Background','#99C2D6')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Table Header Font Color','#000000')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Table Header Font Face','Verdana, Arial, Helvetica, sans-serif')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Table Header Font Size','10pt')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Table Border Color','#99C2D6')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Table Background','#FFFFFF')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Font Face','Verdana, Arial, Helvetica, sans-serif')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Font Size','10pt')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Font Color','black')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Link Color','#000000')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Visited Link Color','#006699')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Active Link Color','red')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('classic','aqua','Icon Color','#006699')

@@ -1,0 +1,41 @@
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Preview Images','preview_cool_3D_blue.jpg')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Body BGColor','#FFFFFF')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Bar 1 Color','#113E5D')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Menu BGColor 1','#7F735B')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Menu BGColor 2','#D7E8E0')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Menu Font Color','#FFFFFF')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Menu Font Face','Verdana, Arial, Helvetica, sans-serif')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Menu Font Size','10pt')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Table Header Background','#7E725A')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Table Header Font Color','#FFFFFF')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Table Header Font Face','Verdana, Arial, Helvetica, sans-serif')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Table Header Font Size','10pt')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Table Border Color','#7E725A')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Table Background','#FFFFFF')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Font Face','Verdana, Arial, Helvetica, sans-serif')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Font Size','10pt')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Font Color','black')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Link Color','#000000')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Visited Link Color','#113E5D')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Active Link Color','#113E5D')
+
+INSERT INTO THEMES_PROPERTY (theme_name,theme_color_scheme,theme_property_name,theme_property_value) VALUES ('cool_3D','blue','Icon Color','#D5EADB')

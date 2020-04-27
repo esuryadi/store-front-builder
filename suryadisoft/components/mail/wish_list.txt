@@ -1,0 +1,10 @@
+Hello,
+<p>
+Remember Wish Lists? As kids, we sweated bullets over filling our lists with stuff we might actually have some hope of receiving, and stuff our friends and family would never buy us. Well, I was visiting the $company_name (http://$company_url) site, and started my own Wish List. Check it out and then create one for yourself if you haven't already!
+<p>
+See my Wish List at: 
+<a href="http://$company_url/mystore.php?Page=WishList&Action=View&FirstName=$user_first_name&LastName=$user_last_name">http://$company_url/mystore.php?Page=WishList&Action=View&FirstName=$user_first_name&LastName=$user_last_name</a> 
+<p>
+Best Wishes,
+<p>
+$user_first_name $user_last_name

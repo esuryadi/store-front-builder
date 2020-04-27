@@ -1,0 +1,131 @@
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('All Products','All Products','all_products.php','No Frame','Center','1')
+
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('Blank Page','','blank_page.php','No Frame','Center','1')
+
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('Browse','Browse','browse.php','Frame','Left','2')
+
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('Clock Applet','Clock','clock.php','Frame','Left','1')
+
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('Contact Form','','contact_form.php','No Frame','Center','1')
+
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('Login','login','login.php','Frame','Right','1')
+
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('New Items','New Items','new_items.php','Frame','Left','1')
+
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('Photo Viewer Applet','Photo Viewer','photo_viewer.php','Frame','Center','1')
+
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('Product Group','','product_group.php','Frame','Center','1')
+
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('Refurbished Items','Refurbished Items','refurbished_items.php','Frame','Right','1')
+
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('Search','Search','search_product.php','Frame','Left','1')
+
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('Simple Clock','','simple_clock.htm','No Frame','Right','1')
+
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('Sub Category 2','Sub Category 2','sub_category_2.php','Frame','Left','1')
+
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('Ticker Applet','','ticker.php','No Frame','Center','1')
+
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('Used Items','Used Items','used_items.php','Frame','Right','1')
+
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('View Cart','View Shopping Cart','view_cart.php','Frame','Right','1')
+
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('Welcome','','welcome.php','No Frame','Center','1')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('All Products','Headlines','headlines.php','headlines.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('All Products','Images List','images_list.php','images_lis.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('All Products','Plain List','plain_list.php','plain_list.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('All Products','Table Images','table_images.php','table_images.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('All Products','Table Images 2','table_images_2.php','table_images_2.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('All Products','Table Images 3','table_images_3.php','table_images_3.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Blank Page','Standard','blank_page.php','blank_page.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Browse','Standard','browse.php','browse.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Clock Applet','Standard','clock.php','clock.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Contact Form','Standard','contact_form.php','contact_form.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Login','Standard','login.php','login.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('New Items','Headlines','headlines.php','headlines.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('New Items','Images List','images_list.php','images_list.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('New Items','Plain List','plain_list.php','plain_list.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('New Items','Table Images','table_images.php','table_images.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('New Items','Table Images 2','table_images_2.php','table_images_2.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('New Items','Table Images 3','table_images_3.php','table_images_3.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Photo Viewer Applet','Standard','photo_viewer.php','photo_viewer.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Product Group','Headlines','headlines.php','headlines.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Product Group','Images List','images_list.php','images_list.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Product Group','Plain List','plain_list.php','plain_list.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Product Group','Table Images','table_images.php','table_images.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Product Group','Table Images 2','table_images_2.php','table_images_2.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Product Group','Table Images 3','table_images_3.php','table_images_3.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Refurbished Items','Headlines','headlines.php','headlines.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Refurbished Items','Images List','images_list.php','images_list.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Refurbished Items','Plain List','plain_list.php','plain_list.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Refurbished Items','Table Images','table_images.php','table_images.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Refurbished Items','Table Images 2','table_images_2.php','table_images_2.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Refurbished Items','Table Images 3','table_images_3.php','table_images_3.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Search','Standard','search.php','search.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Simple Clock','Standard','simple_clock.php','simple_clock.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Sub Category 2','Standard','sub_category_2.php','sub_category_2.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Ticker Applet','Standard','ticker.php','ticker.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Used Items','Headlines','headlines.php','headlines.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Used Items','Images List','images_list.php','images_list.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Used Items','Plain List','plain_list.php','plain_list.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Used Items','Table Images','table_images.php','table_images.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Used Items','Table Images 2','table_images_2.php','table_images_2.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Used Items','Table Images 3','table_images_3.php','table_images_3.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('View Cart','Standard','view_cart.php','view_cart.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Welcome','Standard','welcome.php','welcome.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('All Products','Headlines 2','headlines_2.php','headlines_2.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('New Items','Headlines 2','headlines_2.php','headlines_2.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Product Group','Headlines 2','headlines_2.php','headlines_2.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Refurbished Items','Headlines 2','headlines_2.php','headlines_2.png')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Used Items','Headlines 2','headlines_2.php','headlines_2.png')
+
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('Affiliate','Affiliate Program','affiliate.php','No Frame','Center','1')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Affiliate','Standard','affiliate.php','affiliate.png')

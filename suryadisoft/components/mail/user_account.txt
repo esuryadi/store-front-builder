@@ -1,0 +1,10 @@
+Thank you for registering with $company_name. To log into your account, go to <a href="http://$company_url">$company_url</a>, enter your username and password (see below) and click on the Log In button.
+<p>
+Username: $user_id<br>
+Password: $user_password
+<p>
+Please let us know if you have any problems.
+<p>
+Thanks,
+<p>
+$admin_email

@@ -1,0 +1,41 @@
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','width','textfield','255','','Set the applet width.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','height','textfield','255','','Set the applet height.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','photo','list','','','Set your photo image resource file (include the directory).')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','photo_label','list','','','Set the photo label text.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','url','list','','','Set the url link when you click on the photo.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','url_target','textfield','new_window','','Set the url target.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','title','textfield','','','Set the title text.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','title_bgcolor','textfield','black','','Set the title background color. You can use either HTML pre-defined color or HTML hexadecimal color code.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','title_font','textfield','TimesRoman;BOLD;14','','Set the title font.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','title_fontcolor','textfield','yellow','','Set the font color. You can use either HTML pre-defined color or HTML hexadecimal color code.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','border_color','textfield','gray','','Set the border color. You can use either HTML pre-defined color or HTML hexadecimal color code.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','button_bgcolor','textfield','black','','Set the control panel background color. You can use either HTML pre-defined color or HTML hexadecimal color code.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','img_url_base','textfield','','','Set the image url base. Usually it will be your url address.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','no_border','choice','true','true,false','Set whether you want to add border or not.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','no_title','choice','true','true,false','Set whether you want to display the title bar or not.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','no_label','choice','true','true,false','Set whether you want to display the photo label or not.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','no_control_panel','choice','true','true,false','Set whether you want to display the Photo Viewer control panel or not.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','no_scroll_bar','choice','true','true,false','Set whether you want to display the Photo Viewer scroll bar or not.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','loop','choice','true','true,false','Set whether you want your photo to animate in continuous loop.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','frame_rate','textfield','5','','Set the delay rate between photo/frame within seconds.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Photo Viewer Applet','background','textfield','white','','Set the photo viewer background.')

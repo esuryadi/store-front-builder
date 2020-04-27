@@ -1,0 +1,197 @@
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic','aqua')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic','brown')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic','burgundy')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic','citrus')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic','ivy')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic','lilac')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic','mahogany')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic','meadow')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic','navy blue')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic','trout')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('brushed_steel','aqua steel')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('brushed_steel','blue steel')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('brushed_steel','bronze steel')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('brushed_steel','gold steel')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('brushed_steel','grey steel')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('brushed_steel','purple steel')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('brushed_steel','red steel')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_2','aqua')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_2','brown')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_2','burgundy')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_2','citrus')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_2','ivy')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_2','lilac')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_2','mahogany')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_2','meadow')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_2','navy blue')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_2','trout')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_3','aqua')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_3','brown')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_3','burgundy')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_3','citrus')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_3','ivy')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_3','lilac')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_3','mahogany')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_3','meadow')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_3','navy blue')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('classic_3','trout')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('cool_3D','aqua')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('cool_3D','blue')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('cool_3D','brown')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('cool_3D','burgundy')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('cool_3D','citrus')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('cool_3D','ivy')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('cool_3D','lavender')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('cool_3D','prairie')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('modern','blue')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('modern','brown')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('modern','gold')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('modern','magenta')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('modern','maroon')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('modern','olive green')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('modern','orange')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('modern','pink')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('modern','silver')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook','aqua')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook','brown')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook','burgundy')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook','citrus')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook','ivy')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook','lilac')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook','mahogany')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook','meadow')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook','navy_blue')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook','trout')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('stylish','blue')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('stylish','brown')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('stylish','gold')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('stylish','green')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('stylish','magenta')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('stylish','maroon')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('stylish','orange')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('stylish','red')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('stylish','silver')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('swoosh','aqua')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('swoosh','brown')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('swoosh','burgundy')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('swoosh','citrus')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('swoosh','ivy')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('swoosh','lilac')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('swoosh','mahogany')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('swoosh','meadow')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('swoosh','navy blue')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('swoosh','trout')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('techno','aqua metallic')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('techno','blue metallic')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('techno','gold metallic')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('techno','purple metallic')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('techno','red metallic')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('techno','silver metallic')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook_2','black')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook_2','blue')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook_2','emerald')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook_2','lilac')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook_2','mahogany')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook_2','maroon')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook_2','orange')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook_2','pink')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('outlook_2','yellow')
+
+INSERT INTO THEMES_COLOR_SCHEME (theme_name,theme_color_scheme) VALUES ('custom','custom')

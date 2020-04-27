@@ -1,0 +1,99 @@
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('AL',0.04)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('AK',0.00)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('AZ',0.056)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('AR',0.05125)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('CA',0.0725)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('CO',0.029)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('CT',0.06)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('DE',0.00)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('FL',0.06)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('GA',0.04)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('HI',0.04)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('ID',0.05)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('IL',0.0625)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('IN',0.05)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('IA',0.05)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('KS',0.049)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('KY',0.06)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('LA',0.04)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('ME',0.05)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('MD',0.05)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('MA',0.05)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('MI',0.06)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('MN',0.065)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('MS',0.07)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('MO',0.04225)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('MT',0.00)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('NE',0.05)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('NV',0.065)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('NH',0.00)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('NJ',0.06)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('NM',0.05)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('NY',0.04)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('NC',0.045)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('ND',0.05)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('OH',0.05)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('OK',0.045)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('OR',0.00)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('PA',0.06)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('RI',0.07)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('SC',0.05)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('SD',0.04)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('TN',0.06)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('TX',0.0625)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('UT',0.0475)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('VT',0.05)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('VA',0.045)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('WA',0.065)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('WV',0.06)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('WI',0.05)
+
+INSERT INTO SALES_TAX (state,sales_tax_rate) VALUES ('WY',0.04)

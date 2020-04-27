@@ -1,0 +1,21 @@
+INSERT INTO BUILT_IN_WEB_CONTENT (component_name,title,filename,type,position,sequence) VALUES ('Image','','image.php','No Frame','Center','1')
+
+INSERT INTO COMPONENT_DESIGN (component_name,design_style,filename,preview_images) VALUES ('Image','Standard','image.php','image.png')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Image','image_source','imagefield','http://www.suryadisoft.net/images/blank_img_md.gif','','Image source file')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Image','align','choice','center','center,absbottom,absmiddle,baseline,bottom,left,middle,right,texttop,top','Set the image alignment.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Image','border','textfield','0','','Set the image border size, e.g. 1,2, etc.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Image','alt','textfield','','','Set the image text.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Image','width','textfield','','','Set the image width.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Image','height','textfield','','','Set the image height.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Image','horizontal_space','textfield','','','Set the horizontal space around the image.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Image','vertical_space','textfield','','','Set the vertical space around the image.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Image','url_link','textfield','','','Set the url link of the image.')

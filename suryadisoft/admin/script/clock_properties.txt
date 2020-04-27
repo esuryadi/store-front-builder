@@ -1,0 +1,41 @@
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','width','textfield','220','','Set the applet width.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','height','textfield','30','','Set the applet height.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','font_type','choice','TimesRoman','TimesRoman,Arial,Helvetica','Set the font type.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','font_style','choice','plain','plain,bold,italic,bold & italic','Set the font style.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','font_size','textfield','12','','Set the font size.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','foreground','textfield','black','','Set the font color. You can use HTML pre-defined color or HTML hexadecimal color code.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','background','textfield','white','','Set the background color.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','clock_display','choice','all','all,date,time','Set the clock display.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','clock_type','choice','digital','digital,classic','Set the clock type.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','digital_style','choice','military','military,am/pm','Set the time format (24-hour or am/pm).')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','date_style','choice','long','short,long','Set the date format.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','alarm_time','textfield','','','Set the alarm time.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','alarm_sound','textfield','','','Set the alarm music sound file.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','border_status','choice','on','on,off','Display the border or not.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','border_size','textfield','5','','Set the border size')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','border_color','textfield','gray','','Set the clock border color. You can use HTML pre-defined color or HTML hexadecimal color code.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','border3d','choice','on','on,off','Display the border in 3D or 2D.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','img_background','textfield','','','Set the image background of the clock.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','bg_sound','textfield','','','Set the background sound of the clock.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','clock_frame','choice','oval','rectangle,oval','Set the clock frame of the classic clock.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Clock Applet','base_url','textfield','','','Set the url base for your image and sound file. Usually, it will be your own url address (e.g. http://www.myweb.com).')

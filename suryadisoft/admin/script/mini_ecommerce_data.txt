@@ -1,0 +1,19 @@
+INSERT INTO WEB_CONTENT (title,component_name,filename,type,position,sequence,component_type,category,style) VALUES ('Home','All Products','all_products.php','Frame','Center','1','built-in','Home','Images List')
+
+INSERT INTO WEB_CONTENT (title,component_name,filename,type,position,sequence,component_type,category,style) VALUES ('Movies','All Products','all_products.php','Frame','Center','1','built-in','Movies','Images List')
+
+INSERT INTO WEB_CONTENT (title,component_name,filename,type,position,sequence,component_type,category,style) VALUES ('Games','All Products','all_products.php','Frame','Center','1','built-in','Games','Images List')
+
+INSERT INTO WEB_CONTENT (title,component_name,filename,type,position,sequence,component_type,category,style) VALUES ('Anime','All Products','all_products.php','Frame','Center','1','built-in','Anime','Images List')
+
+INSERT INTO WEB_CONTENT (title,component_name,filename,type,position,sequence,component_type,category,style) VALUES ('Playstation 1','All Products','all_products.php','Frame','Center','1','built-in','Playstation 1','Images List')
+
+INSERT INTO WEB_CONTENT (title,component_name,filename,type,position,sequence,component_type,category,style) VALUES ('Login','Login','login.php','Frame','Right','1','built-in','Home','Standard')
+
+INSERT INTO WEB_CONTENT (title,component_name,filename,type,position,sequence,component_type,category,style) VALUES ('For Sale','Product Group','product_group.php','Frame','Right','3','built-in','Home','Plain List')
+
+INSERT INTO PRODUCT_GROUP (group_name) VALUES ('Feature Products')
+
+INSERT INTO PRODUCT_GROUP (group_name) VALUES ('For Sale')
+
+INSERT INTO PRODUCT_GROUP (group_name) VALUES ('New Releases')

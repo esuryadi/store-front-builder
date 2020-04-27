@@ -1,0 +1,16 @@
+Dear $first_name $last_name:
+
+We have been unsuccessfully billed your $cc_type (credit card last 4-digit number $cc_num) for domain $domain_name for the amount of $$monthly_fee. The following error occured when we try to bill your credit card:
+
+	$errMsg
+
+Your account has been $past_due days past dues since $due_date. In order to keep your online store active, please update your billing information from your online store manager (Login to your online store manager, click on \"settings\" tab, and then click on \"account info\" tab on settings).
+
+Your account will be automatically cancelled and removed from our server without any notices if the balance is not paid within 30 days. Upon removal, all your data, images and files will be lost without possibility of recovery.
+
+If you have any questions about this bill, please contact sales@suryadisoft.net.
+
+Sincerely,
+
+Edward Suryadi
+President of SuryadiSoft

@@ -1,0 +1,87 @@
+<p>
+<p><font size=\"+1\"><strong><u>New Client Information</u></strong></font></p>
+<blockquote>
+  <p>
+		<b>$this->first_name $this->middle_initial $this->last_name <br>
+    $this->company_name <br>
+    Address:<br>
+    </b>
+	</p>
+  <b>
+  <blockquote> 
+		$this->company_address_1 <br>
+    $this->company_address_2 <br>
+    $this->company_city, $this->company_state $this->company_zip <br>
+    $this->company_country 
+	</blockquote>
+  Phone: $this->company_phone<br>
+  Email: $this->company_email 
+	</b>
+</blockquote>
+<u><font size=\"+1\"><strong>Billing Information</strong></font></u> 
+<p><b> 
+<blockquote> 
+	$this->billing_first_name $this->billing_middle_initial $this->billing_last_name<br>
+	Address:<br>
+	<blockquote> 
+		$this->billing_address_1<br>
+		$this->billing_address_2<br>
+		$this->billing_city, $this->billing_state $this->billing_zip<br>
+		$this->billing_country    
+	</blockquote>
+	Phone: $this->billing_phone<br>
+	Payment Type: $this->payment_type<br>
+	Credit Card Number: xxxx-xxxx-xxxx-xxxx<br>
+</blockquote>
+</b> 
+<table width=\"100%\" cellspacing=\"0\" cellpadding=\"5\">
+	<tr> 
+		<td><strong>Basic Online Payment Page</strong></td>
+		<td align=\"right\" nowrap> <div align=\"right\"><strong>$ 100.00</strong></div></td>
+	</tr>
+	<tr>				
+	<td> <strong>Payment Gateway Provider:</strong> $this->payment_gateway</td>
+		<td align=\"right\" valign=\"top\" nowrap>
+			<strong>$ $payment_gateway_cost</strong>
+		</td>
+	</tr>
+	<tr> 
+		<td><p><strong>Other Payment Gateway:</strong><br>
+				$this->other_payment_gateway
+			</p></td>
+		<td valign=\"top\" nowrap> <div align=\"right\"></div></td>
+	</tr>
+	<tr> 
+		<td><p><strong>Number of Additional Page:</strong> 
+				$this->additional_page
+				<strong>pages ($50.00 per page)</strong></p></td>
+		<td nowrap> <div align=\"right\"><strong>$ 
+				$additional_page_cost
+				</strong></div></td>
+	</tr>
+	<tr> 				
+	<td valign=\"top\"><strong>Additional Page Description:</strong><br>
+		$this->additional_page_desc
+	</td>
+		<td nowrap> <div align=\"right\"></div></td>
+	</tr>
+	<tr> 
+		<td><strong>Add database to keep record on purchase and transaction ($100.00)</strong></td>
+		<td nowrap> <div align=\"right\"><strong>$ 
+				$database_cost
+				</strong></div></td>
+	</tr>
+	<tr>				
+	<td valign=\"top\"><strong>Special Instruction</strong>:<br>
+		$this->special_instruction
+	</td>
+		<td nowrap>&nbsp;</td>
+	</tr>
+	<tr> 
+		<td bgcolor=\"#BEE8F5\"><strong>Total Development Cost</strong></td>
+		<td nowrap bgcolor=\"#BEE8F5\"> 
+			<div align=\"right\"><strong>$ 
+				$total
+				</strong></div></td>
+	</tr>
+</table>

@@ -1,0 +1,55 @@
+CREATE TABLE PRODUCT (product_id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , product_name VARCHAR (99)  NOT NULL , product_description TEXT, product_isbn VARCHAR (50) , product_quantity INT UNSIGNED  NOT NULL , product_retail_price DECIMAL (9,2) , product_price DECIMAL (9,2)  NOT NULL , product_image_small TEXT , product_image_medium TEXT , product_image_large TEXT , product_main_category VARCHAR(99) , product_sub_category_1 VARCHAR(99) , product_sub_category_2 VARCHAR(99) , product_other_category TEXT , product_condition SET('New','Used','Refurbished'), product_color_choices TEXT, product_size_choices TEXT, product_other_choices TEXT, product_weight DECIMAL (9,2) NOT NULL, product_length INT UNSIGNED, product_width INT UNSIGNED, product_height INT UNSIGNED, related_products TEXT, PRIMARY KEY(product_id), INDEX(product_name))
+
+CREATE TABLE USER (user_id VARCHAR (50)  NOT NULL , user_password VARCHAR (50)  NOT NULL , user_email VARCHAR (250) NOT NULL , user_first_name VARCHAR(50) NOT NULL, user_last_name VARCHAR(50) NOT NULL , PRIMARY KEY(user_id))
+
+CREATE TABLE CUSTOMER (customer_id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , user_id VARCHAR (50)  NOT NULL , customer_first_name VARCHAR (99) , customer_mi_name VARCHAR (5) , customer_last_name VARCHAR (99)  NOT NULL , customer_email VARCHAR(99) , customer_phone_day VARCHAR (12) , customer_phone_evening VARCHAR (12) , customer_fax VARCHAR (99) , customer_address_1 TEXT, customer_address_2 TEXT, customer_city VARCHAR (50) , customer_state VARCHAR (50) , customer_zip VARCHAR (10) , customer_country VARCHAR (50) , PRIMARY KEY(customer_id), INDEX(customer_last_name))
+
+CREATE TABLE SHIPPING (shipping_id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , customer_id INT NOT NULL , shipping_method VARCHAR (50)  NOT NULL , shipping_rate DECIMAL (9,2)  NOT NULL , shipping_first_name VARCHAR(99) NOT NULL , shipping_mi_name VARCHAR(5) NOT NULL , shipping_last_name VARCHAR(99) NOT NULL , shipping_address_1 TEXT NOT NULL , shipping_address_2 TEXT NOT NULL , shipping_city VARCHAR (50)  NOT NULL , shipping_state VARCHAR (50)  NOT NULL , shipping_zip VARCHAR (10)  NOT NULL , shipping_country VARCHAR (50)  NOT NULL , PRIMARY KEY(shipping_id))
+
+CREATE TABLE SHIPPING_VENDOR (shipping_vendor_id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , shipping_vendor_name VARCHAR (99)  NOT NULL , shipping_vendor_method VARCHAR (99)  NOT NULL , PRIMARY KEY(shipping_vendor_id))
+
+CREATE TABLE SHIPPING_RATE (id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , product_id INT NOT NULL, shipping_vendor VARCHAR(99) NOT NULL , shipping_method VARCHAR (99)  NOT NULL , one_item_rate DECIMAL (9,2)  NOT NULL , additional_item_rate DECIMAL (9,2) NOT NULL , state VARCHAR(50), city VARCHAR(99), zip VARCHAR(15), country VARCHAR(99) , PRIMARY KEY(id))
+
+CREATE TABLE TRANSACTION (transaction_id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , invoice_number INT UNSIGNED , customer_id INT UNSIGNED  NOT NULL , billing_id INT UNSIGNED , shipping_id INT UNSIGNED  NOT NULL , transaction_subtotal_charge DECIMAL (9,2)  NOT NULL , transaction_shipping_charge DECIMAL (9,2) , transaction_tax_charge DECIMAL (9,2) , transaction_total_charge DECIMAL (9,2)  NOT NULL , transaction_date_time DATETIME NOT NULL , transaction_status SET ('Pending','Partially Completed','Completed','Cancelled') NOT NULL , transaction_tracking_number VARCHAR(50) , coupon_code VARCHAR(255) , PRIMARY KEY(transaction_id), INDEX(transaction_subtotal_charge))
+
+CREATE TABLE SALES_TAX (sales_tax_id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , sales_tax_state VARCHAR (2)  NOT NULL , sales_tax_rate DECIMAL (1,5)  NOT NULL , PRIMARY KEY(sales_tax_id))
+
+CREATE TABLE PURCHASE (purchase_id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , customer_id INT UNSIGNED  NOT NULL , transaction_id INT UNSIGNED  NOT NULL , product_id INT UNSIGNED  NOT NULL , product_color VARCHAR(50) , product_size VARCHAR(50) , product_choice VARCHAR(50) , purchase_quantity INT UNSIGNED  NOT NULL , purchase_charge DECIMAL (9,2)  NOT NULL , purchase_status SET ('In Process','Back Order','Shipped','Cancelled') NOT NULL , PRIMARY KEY(purchase_id), INDEX(transaction_id))
+
+CREATE TABLE BILLING (billing_id INT UNSIGNED  NOT NULL AUTO_INCREMENT, customer_id INT UNSIGNED NOT NULL , billing_first_name VARCHAR(99) NOT NULL , billing_mi_name VARCHAR(5) NOT NULL , billing_last_name VARCHAR(99) NOT NULL , account_number VARCHAR(16) NOT NULL , cc_exp_date VARCHAR (99)  NOT NULL , cc_ver_code INT UNSIGNED , payment_type SET ('Visa','MasterCard','Discover','Amex','Diners Club')  NOT NULL , billing_address_1 TEXT NOT NULL , billing_address_2 TEXT NOT NULL , billing_city VARCHAR (50)  NOT NULL , billing_state VARCHAR (50)  NOT NULL , billing_zip VARCHAR (10)  NOT NULL , billing_country VARCHAR (50)  NOT NULL , billing_phone VARCHAR(12) NOT NULL , PRIMARY KEY(billing_id), INDEX(account_number))
+
+CREATE TABLE SHOPPING_CART (id INT UNSIGNED NOT NULL AUTO_INCREMENT, user_id VARCHAR(50)  NOT NULL , product_id INT UNSIGNED  NOT NULL , product_color VARCHAR(50) , product_size VARCHAR(50) , product_choice VARCHAR(50) , shopping_cart_quantity INT UNSIGNED  NOT NULL , PRIMARY KEY(id))
+
+CREATE TABLE WISH_LIST (id INT UNSIGNED NOT NULL AUTO_INCREMENT, user_id VARCHAR(50)  NOT NULL , product_id INT UNSIGNED  NOT NULL , product_color VARCHAR(50) , product_size VARCHAR(50) , product_choice VARCHAR(50) , wish_list_quantity INT UNSIGNED  NOT NULL , PRIMARY KEY(id))
+
+CREATE TABLE WEB_CONTENT (id INT UNSIGNED NOT NULL AUTO_INCREMENT, component_name VARCHAR(99) not null , title TEXT, filename TEXT, type ENUM ('Frame','No Frame') , position SET ('Top','Bottom','Left','Center','Right') , sequence INT UNSIGNED , component_type SET ('built-in','custom') NOT NULL , category VARCHAR(99) , style VARCHAR(99) , PRIMARY KEY(id))
+
+CREATE TABLE PRODUCT_GROUP (group_name VARCHAR (200)  NOT NULL , PRIMARY KEY(group_name), INDEX(group_name))
+
+CREATE TABLE FEATURE_PRODUCTS (id INT UNSIGNED NOT NULL AUTO_INCREMENT, product_id INT UNSIGNED NOT NULL , sequence INT UNSIGNED NOT NULL , PRIMARY KEY(id))
+
+CREATE TABLE FOR_SALE (id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , product_id INT UNSIGNED  NOT NULL , sequence INT UNSIGNED  NOT NULL , PRIMARY KEY(id))
+
+CREATE TABLE NEW_RELEASES (id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , product_id INT UNSIGNED  NOT NULL , sequence INT UNSIGNED  NOT NULL , PRIMARY KEY(id))
+
+CREATE TABLE CATEGORIES (categories_id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , categories_main VARCHAR (99)  NOT NULL , categories_sub_1 VARCHAR (99) , categories_sub_2 VARCHAR (99) , PRIMARY KEY(categories_id))
+
+CREATE TABLE PROPERTY (property_id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , property_name VARCHAR (200)  NOT NULL , property_value TEXT , PRIMARY KEY(property_id))
+
+CREATE TABLE LINK (link_id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , link_type SET ('Text','Image')  NOT NULL , link_text TEXT NOT NULL , link_img_src TEXT, link_url TEXT NOT NULL , link_position SET ('Top','Bottom')  NOT NULL , link_target SET ('Self','Parent','New Window')  NOT NULL , sequence INT UNSIGNED, PRIMARY KEY(link_id))
+
+CREATE TABLE MAIN_CATEGORY (category VARCHAR(99) NOT NULL , sequence INT UNSIGNED  NOT NULL, PRIMARY KEY(category))
+
+CREATE TABLE PRODUCT_COUPON (coupon_id VARCHAR (99)  NOT NULL , product_id INT UNSIGNED  NOT NULL , discount_type SET ('percentage','fixed value')  NOT NULL , coupon_value DECIMAL (9,4)  NOT NULL , exp_date DATE , PRIMARY KEY(coupon_id), INDEX(coupon_id))
+
+CREATE TABLE SHIPPING_RATE_2 (id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , shipping_vendor VARCHAR (99)  NOT NULL , shipping_method VARCHAR (99)  NOT NULL , total_purchase_low DECIMAL (9,2)  NOT NULL , total_purchase_high DECIMAL (9,2)  NOT NULL , zip_code_low INT UNSIGNED , zip_code_high INT UNSIGNED , rate_type SET ('fixed value','percentage') NOT NULL , shipping_rate DECIMAL (9,4)  NOT NULL , shipping_destination SET ('domestic and international','domestic','international') , PRIMARY KEY(id), INDEX(id))
+
+CREATE TABLE SHIPPING_RATE_3 (id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , weight INT NOT NULL, shipping_vendor VARCHAR(99) NOT NULL , shipping_method VARCHAR (99)  NOT NULL , shipping_rate DECIMAL (9,2)  NOT NULL , rate_type SET ('fixed value','multiple') NOT NULL , state VARCHAR(50), city VARCHAR(99), zip VARCHAR(15), country VARCHAR(99) , PRIMARY KEY(id), INDEX(id))
+
+CREATE TABLE SPECIAL_PRICING (id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , user_id VARCHAR (99)  NOT NULL , product_id INT NOT NULL , product_price DECIMAL (9,2)  NOT NULL , PRIMARY KEY(id), INDEX(id))
+
+CREATE TABLE PRODUCT_IMAGES_GALLERY (id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , product_id INT UNSIGNED  NOT NULL , product_image_src VARCHAR (99)  NOT NULL , PRIMARY KEY(id), INDEX(id))
+
+CREATE TABLE VOLUME_DISCOUNT (id INT UNSIGNED  NOT NULL  AUTO_INCREMENT , discount_by SET ('total quantity','total purchase')  NOT NULL , volume_low DECIMAL (9,2)  NOT NULL , volume_high DECIMAL (9,2)  NOT NULL , discount_type SET ('fixed value','percentage')  NOT NULL , discount_rate DECIMAL (9,4)  NOT NULL , PRIMARY KEY(id), INDEX(id))
+
+CREATE TABLE AFFILIATE (affiliate_id VARCHAR (99)  NOT NULL , affiliate_name VARCHAR (199)  NOT NULL , affiliate_address VARCHAR (199) , affiliate_city VARCHAR (99) , affiliate_state VARCHAR (99) , affiliate_zip VARCHAR (10) , affiliate_country VARCHAR (99) , affiliate_phone VARCHAR (20) , affiliate_email VARCHAR (99) , affiliate_url VARCHAR (200), affiliate_referral_hits INT UNSIGNED , affiliate_referral_purchase INT UNSIGNED , affiliate_commission_type ENUM ('fixed','percentage') NOT NULL , affiliate_commission DECIMAL (9,2)  NOT NULL , affiliate_total_commission DECIMAL (9,2) NOT NULL , affiliate_paid_commission DECIMAL (9,2) , PRIMARY KEY(affiliate_id), INDEX(affiliate_id))

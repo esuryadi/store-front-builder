@@ -1,0 +1,27 @@
+Dear $first_name:
+
+Welcome to SURYADISOFT! Your trial online store site has been built. Now, you can access your online store trial through the following web address: http://www.suryadisoft.net/trial/$user_id/mystore.php?Page=Home.
+
+You can administer your trial online web site through our online store manager:
+
+	https://www.suryadisoft.net/admin/index.htm
+	username: $user_id
+	password: $user_id
+	
+If you have any questions or comments regarding our product (how to run it, etc), please feel free to contact us at:
+
+	Sales: sales@suryadisoft.net
+	Feedback/Comments: webmaster@suryadisoft.net
+	
+If you like our product after trying it, you can sign-up with us at:
+
+	http://www.suryadisoft.net/suryadisoft.php?page=Pricing
+
+Thank you for trying our product. We hope you will enjoy it.
+
+Sincerely,
+
+Edward Suryadi
+President
+SURYADISOFT
+webmaster@suryadisoft.net

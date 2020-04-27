@@ -1,0 +1,32 @@
+Dear $client_first_name:
+
+Welcome to SURYADISOFT! Your online store web site has been completely built. Now, you can access your online store web site through this web address http://www.$domain_name. However, it will take about 24 hours before your domain name becomes active.
+
+Please do not delete this email message since it contains your username and password to access the eCommerce Control Panel.
+
+Now, you can administer your eCommerce web site through our site manager:
+
+	https://www.suryadisoft.net/admin/index.htm
+	username: $username
+	password: $password
+	
+Also, you can administer your web hosting control panel securely through:
+
+	https://www.suryadisoft.net:8443/psoft/servlet/psoft.hsphere.CP
+	login: $username
+	password: $password
+	
+If you have any more questions about our product, comments or need of technical support, you can contact us through the following address:
+
+	Sales: sales@suryadisoft.net
+	Technical Support: support@suryadisoft.net
+	Questions/Comments: webmaster@suryadisoft.net
+
+Thank you for choosing SURYADISOFT as your eCommerce solution. We hope that you will enjoy our great service and we hope that your online business will grow.
+
+Sincerely,
+
+Edward Suryadi
+President
+SURYADISOFT
+webmaster@suryadisoft.net

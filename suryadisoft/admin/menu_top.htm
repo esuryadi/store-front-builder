@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Administrator Control Panel - Top Menu</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<script language="JavaScript">
+
+var coldColor = "#000000"
+var hotColor  = "#00AEEF"
+var motionPix = "0"
+var a='<style>'+
+'A.InstantLink:link {'+
+'  color:'+coldColor+';'+
+'  text-decoration:none;'+
+'  padding:0 '+motionPix+' 0 0;'+
+'  }'+  
+'A.InstantLink:visited {'+
+'  color:'+coldColor+';'+
+'  text-decoration:none;'+
+'  padding:0 '+motionPix+' 0 0;}'+  
+'A.InstantLink:active {'+
+'  color:'+coldColor+';'+
+'  text-decoration:none;'+
+'  padding:0 '+motionPix+' 0 0;'+
+'  }'+  
+'A.InstantLink:hover {'+
+'  color:'+hotColor+';'+
+'  text-decoration:underline;'+
+'  padding:0 0 0 '+motionPix+';'+
+'  }'+
+'</style>'
+if (document.all || document.getElementById){
+    document.write(a)
+}
+</script>
+
+
+
+<body vlink="00aeef" bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="00AEEF">
+  <tr>
+    <td valign="bottom"><img src="../images/admin_control_hdr.jpg" width="336" height="55"></td>
+    <td align="right" valign="bottom"> <div align="right"> 
+        <table border="0" cellpadding="5" cellspacing="0">
+        <tr> 
+            <td align="right"><font size="-1" face="Verdana, Arial, Helvetica, sans-serif"><a class="InstantLink" href="login.php?Action=Logout" target="_parent"><font color="#FFFFFF">Logout</font></a> 
+              </font></td>
+        </tr>
+        </table>
+      </div></td>
+  </tr>
+  <tr bgcolor="#333333"> 
+    <td colspan="2"><img src="../../images/spacer.gif" height="4" width="4"></td>
+  </tr>
+</table>
+</body>
+</html>

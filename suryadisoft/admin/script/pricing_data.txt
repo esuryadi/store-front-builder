@@ -1,0 +1,35 @@
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('mini','Setup Fee',24.95,'One Time')
+
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('mini','Monthly Fee',9.95,'Monthly')
+
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('basic','Setup Fee',24.95,'One Time')
+
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('mini','Monthly Fee',19.95,'Monthly')
+
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('standard','Setup Fee',34.95,'One Time')
+
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('standard','Monthly Fee',29.95,'Monthly')
+
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('professional','Setup Fee',69.95,'One Time')
+
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('professional','Monthly Fee',39.95,'Monthly')
+
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('duluxe','Setup Fee',69.95,'One Time')
+
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('duluxe','Monthly Fee',49.95,'Monthly')
+
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('Option Features','User Account',10,'Monthly')
+
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('Option Features','Wish List',5,'Monthly')
+
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('Disk Spaces','25 MB',10,'Monthly')
+
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('Disk Spaces','50 MB',17,'Monthly')
+
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('Disk Spaces','100 MB',30,'Monthly')
+
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('Disk Spaces','250 MB',55,'Monthly')
+
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('Disk Spaces','500 MB',95,'Monthly')
+
+INSERT INTO PRICING (pricing_plan,pricing_category,pricing_price,pricing_term) VALUES ('Disk Spaces','Extra/MB',0.50,'Monthly')

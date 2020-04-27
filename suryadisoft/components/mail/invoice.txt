@@ -1,0 +1,100 @@
+<p>Dear $customer_first_name $customer_last_name:</p>
+
+<p>Thank you for shopping with us.</p>
+
+<p>Below is the copy of your invoice.</p>
+
+<hr>
+
+<p>
+Invoice Number: $invoice_number<br> 
+Purchase Date: $date_time 
+</p>
+
+<p>
+<table width="100%" cellspacing="0" cellpadding="5" border="1" bordercolor="#CCCCCC">
+<tr bgcolor="#CCCCCC">  
+	<th width="80%">Items</th>
+	<th width="10%">Quantity</th>
+	<th width="10%">Price</th>
+</tr>
+$items
+<tr>
+	<td colspan="2">
+ 		<b>Subtotal</b><br> 
+ 		<b>Discount</b><br> 
+ 		<b>Shipping via $shipping_method</b><br> 
+ 		<b>$shipping_state Sales Tax ($sales_tax_rate %)</b><br>  
+	</td>
+	<td align="right">
+		$ $sub_total<br>
+		($ $discount_value)<br>
+		$ $shipping_charges<br>
+		$ $sales_tax
+	</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+	<td colspan="2"><b>Total</b></td>
+	<td align="right">$ $total_charges</td>
+</tr>
+</table>
+</p>
+<p>
+<table cellpadding="10">
+<tr>
+	  <td valign="top"> 
+      <table cellspacing="0" cellpadding="5" border="1" bordercolor="#CCCCCC">
+		<tr>
+			<td bgcolor="#CCCCCC"><strong>Ship to:</strong></td>
+		</tr><tr> 
+			<td>
+				$shipping_first_name $shipping_middle_initial $shipping_last_name <br>
+				Address:
+					<blockquote> 
+					$shipping_address_1<br> 
+					$shipping_address_2<br> 
+					$shipping_city, $shipping_state $shipping_zip<br> 
+					$shipping_country 
+					</blockquote>
+			</td>
+		</tr>
+	</table>
+	  </td>
+	<td>
+		<table cellspacing="0" cellpadding="5" border="1" bordercolor="#CCCCCC">
+		<tr>
+			<td bgcolor="#CCCCCC"><strong>Bill to:</strong></td> 
+		</tr><tr>
+			<td>
+				$billing_first_name $billing_middle_initial $billing_last_name<br> 
+				Address:
+					<blockquote> 
+					$billing_address_1<br> 
+					$billing_address_2<br> 
+					$billing_city, $billing_state $billing_zip<br> 
+					$billing_country 
+					</blockquote>
+				Phone: $billing_phone<br> 
+				Payment Type: $payment_type<br>
+				Account Number: xxxx-xxxx-xxxx-xxxx 
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+</p>
+
+<hr>
+
+<p>Thank you for your business.</p>
+
+<p>
+<strong>$company_name</strong><br>
+$company_address_1<br>
+$company_address_2<br>
+$company_city, $company_state $company_zip<br>
+$company_country<br>
+Phone: $company_phone<br>
+Email: <a href="mailto:"$company_email">$company_email</a>
+</p>

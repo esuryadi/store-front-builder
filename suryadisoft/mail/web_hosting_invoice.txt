@@ -1,0 +1,52 @@
+Dear $this->first_name: 
+
+Thank you for subscribing our $this->subscription_package website builder service. Your order will be processed within 48 hours.
+
+Below is the copy of your invoice. Please keep it as your proof-of-purchase. 
+
+----------------------------------------------------------------------------------- 
+
+Purchase Date: $this->date_time 
+
+Client Information: 
+
+	$this->first_name $this->middle_initial $this->last_name 
+	$this->company_name 
+	Address: 
+		$this->company_address_1 
+		$this->company_address_2	
+		$this->company_city, $this->company_state $this->company_zip \b
+		$this->company_country
+	Phone: $this->company_phone 
+	Fax: $this->company_fax 
+	Email: $this->company_email 
+
+Billing Information: 
+
+	$this->billing_first_name $this->billing_middle_initial $this->billing_last_name 
+	Address: 
+		$this->billing_address_1 
+		$this->billing_address_2 
+		$this->billing_city, $this->billing_state $this->billing_zip 
+		$this->billing_country 
+	Phone: $this->billing_phone 
+	Payment Type: $this->payment_type
+	Account Number: xxxx-xxxx-xxxx-xxxx 
+
+Package: $this->subscription_package 
+
+Domain name: $this->domain_name 
+
+One time setup fee: \$ $this->one_time_setup_fee 
+Recurring monthly/annually fee: \$ $this->recurring_monthly_fee 
+
+----------------------------------------------------------------------------------- 
+
+Please contact us if you have any further questions: 
+
+	Sales: sales@suryadisoft.net 
+	Technical Support: support@suryadisoft.net 
+
+
+- SURYADISOFT -
+http://www.suryadisoft.net

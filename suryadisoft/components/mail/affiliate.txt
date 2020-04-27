@@ -1,0 +1,12 @@
+<p>Dear $name: </p>
+<p>Thank You for becoming our affiliate. Please use the following HTML snippet 
+  code and add to your website: </p>
+<p>&lt;!-- $company_name logo --&gt;<br>
+  &lt;a href=\&quot;http://$company_url/mystore.php?affiliate_id=$id\&quot;&gt;&lt;img 
+  src=\&quot;http://$company_url/$logo_img_src\&quot;&gt;&lt;/a&gt; <br>
+  &lt;!-- End of logo --&gt;</p>
+<p> You will receive an affiliate commission from us for every click that results 
+  in a purchase. If you have any problems installing the affiliate html code, 
+  please contact us at $company_email. </p>
+<p>Thank You, </p>
+<p>$company_name</p>

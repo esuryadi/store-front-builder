@@ -1,0 +1,15 @@
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Welcome','image_1','imagefield','','','Enter your image source file, e.g. images/myimg.gif or upload your image from your local computer.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Welcome','image_2','imagefield','','','Enter your image source file, e.g. images/myimg.gif or upload your image from your local computer. ')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Welcome','paragraph_1','textarea','To edit or input some text for this component, you need to edit the settings of this component by going to <b>Manage Store -> Store Components</b> page. Click on the <b>edit</b> button and click on the <b>Component Settings</b> button.','','Paragraph 1 text. You can use html code to format your text.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Welcome','paragraph_2','textarea','','','Paragraph 2 text. You can use html code to format your text.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Welcome','paragraph_3','textarea','','','Paragraph 3 text. You can use html code to format your text. ')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Welcome','paragraph_4','textarea','','','Paragraph 4 text. You can use html code to format your text. ')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Welcome','image1_alt_text','textfield','','','The tool tips text for image 1 when you mouse over on image 1.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Welcome','image1_alt_text','textfield','','','The tool tips text for image 1 when you mouse over on image 1.')

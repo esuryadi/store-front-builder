@@ -1,0 +1,71 @@
+INSERT INTO CATEGORIES (categories_main,categories_sub_1,categories_sub_2) VALUES ('Movies','Anime','')
+
+INSERT INTO CATEGORIES (categories_main,categories_sub_1,categories_sub_2) VALUES ('Games','Playstation 1','')
+
+INSERT INTO PRODUCT (product_name,product_description,product_isbn,product_quantity,product_price,product_image_small,product_image_medium,product_image_large,product_main_category,product_sub_category_1,product_sub_category_2,product_condition) VALUES ('Lunar Silver Star Story Complete','Return to the world of LUNAR, in the completely reworked 32-bit version of the RPG classic. Journey back to a place whre dragons yet live, and magic is valued above all else. Join Alex, the you adventurer, as he begins a quest with his friends to save their land from the crushing advance of the Magic Emperor. Explore dungeons, fight terrifying monsters, and gather information from the locals as you advance toward the explosive confrontation with the Magic Emperor himself! Exciting, menu-driven combat will keep you challenged until the last. And, thanks to the storage power of CD and the PlayStation\'s built-in movie player, LUNAR contains nearly an hour of incredible animation sequences that will get you involved in the story faster than you ever thought possible. Get ready for the ride of your life...
+<p>
+<h3>Four Disc Collectors Edition!</h3>
+<ul>
+<li> Includes: 2 Game CDs, 1 Music CD, and 1 Exclusiver \"Making of LUNAR\" CD!
+<li> 100+ Page Leatherette Hardbound Artbook/Instruction Manual!
+<li> Excerpt from the Official Strategy Guide Included!
+<li> Full-color Cloth Map!
+</ul>','',50,55.95,'images/product/lunar_sm.jpg','images/product/lunar_md.jpg','images/product/lunar_lg.jpg','Games','Playstation 1','','New')
+
+INSERT INTO FEATURE_PRODUCTS (product_id) VALUES (1)
+
+INSERT INTO NEW_RELEASES (product_id) VALUES (1)
+
+INSERT INTO FOR_SALE (product_id) VALUES (1)
+
+INSERT INTO SHIPPING_VENDOR (shipping_vendor_name,shipping_vendor_method) VALUES ('USPS','Standard Mail')
+
+INSERT INTO SHIPPING_VENDOR (shipping_vendor_name,shipping_vendor_method) VALUES ('USPS','Priority Mail')
+
+INSERT INTO SHIPPING_VENDOR (shipping_vendor_name,shipping_vendor_method) VALUES ('USPS','Express Mail')
+
+INSERT INTO SHIPPING_RATE (product_id,shipping_vendor,shipping_method,one_item_rate,additional_item_rate) VALUES (1,'USPS','Standard Mail',6.00,3.00)
+
+INSERT INTO SHIPPING_RATE (product_id,shipping_vendor,shipping_method,one_item_rate,additional_item_rate) VALUES (1,'USPS','Priority Mail',8.00,4.00)
+
+INSERT INTO SHIPPING_RATE (product_id,shipping_vendor,shipping_method,one_item_rate,additional_item_rate) VALUES (1,'USPS','Express Mail',10.00,5.00)
+
+INSERT INTO PRODUCT (product_name,product_description,product_isbn,product_quantity,product_price,product_image_small,product_image_medium,product_image_large,product_main_category,product_sub_category_1,product_sub_category_2,product_condition) VALUES ('Fushigi Yugi - Suzaku','This is the story of a girl, who made her dreams come true after she came to posses the seven stars of Suzaku. and many powers were bestowed upon her.
+<p>
+The story itself is a spell. The one who reads it through will be given the powers and granted a wish like the girl in the story.
+<p>
+Because... the story begins and becomes real... The moment the first page is turned.
+<p>
+<i>- The Universe of the Four Gods</i>','',50,159.99,'images/product/fushigi_yugi_sm.jpg','images/product/fushigi_yugi_md.jpg','images/product/fushigi_yugi_lg.jpg','Movies','Anime','DVD','New')
+
+INSERT INTO FEATURE_PRODUCTS (product_id) VALUES (2)
+
+INSERT INTO NEW_RELEASES (product_id) VALUES (2)
+
+INSERT INTO FOR_SALE (product_id) VALUES (2)
+
+INSERT INTO SHIPPING_RATE (product_id,shipping_vendor,shipping_method,one_item_rate,additional_item_rate) VALUES (2,'USPS','Standard Mail',3,1.5)
+
+INSERT INTO SHIPPING_RATE (product_id,shipping_vendor,shipping_method,one_item_rate,additional_item_rate) VALUES (2,'USPS','Priority Mail',5.20,3.15)
+
+INSERT INTO SHIPPING_RATE (product_id,shipping_vendor,shipping_method,one_item_rate,additional_item_rate) VALUES (2,'USPS','Express Mail',7.35,3.25)
+
+INSERT INTO PRODUCT (product_name,product_description,product_isbn,product_quantity,product_price,product_image_small,product_image_medium,product_image_large,product_main_category,product_sub_category_1,product_sub_category_2,product_condition) VALUES ('Lunar 2: Eternal Blue Complete','The enchanting world of LUNAR comes to life once more in the enhanced PlayStation game console version of the classic RPG sequel. Join freewheeling Hiro and adorable Ruby, a thousand years after the events of LUNAR: Silver Star Story, as they work to unlock the secrets of the Blue Spire...and the strange young girl they found within it! But be careful-dark forces are trying to revive the evil Zophar, and immerse LUNAR in darkness forever. Journey to distant lands in search of the Goddess Althena, who may be the only one powerful enough to stop Zophar. Along the way, you\'ll meet exciting new characters, fight vividly animated monsters, traverse snow-covered mountain peaks, and crawl through slimy dungeon depths as you wind your way toward the terrifying climax! LUNAR 2 features almost an hour of detailed animation sequences and over 90 minutes of dialogue packed onto threeCDs...so what are you waiting for? Go ahead, you deserve to be the hero for once!
+<p>
+<h2>Five Disc Collector\'s Edition</h2>
+<ul>
+<li> Includes: 3 Game CDs, 1 Music CD, and 1 Exclusive \"Making of LUNAR 2\" CD!
+<li> 100+ Page Leatherette Hardbound Artbook/Instruction Manual!
+<li> Exclusive Full-Size Lucia\'s Pendant!
+<li> Exclusive Character Mini-Standees!
+</ul>','',50,60.45,'images/product/lunar2_sm.jpg','images/product/lunar2_md.jpg','images/product/lunar2_lg.jpg','Games','Playstation 1','','New')
+
+INSERT INTO NEW_RELEASES (product_id) VALUES (3)
+
+INSERT INTO FOR_SALE (product_id) VALUES (3)
+
+INSERT INTO SHIPPING_RATE (product_id,shipping_vendor,shipping_method,one_item_rate,additional_item_rate) VALUES (3,'USPS','Standard Mail',5.50,2.25)
+
+INSERT INTO SHIPPING_RATE (product_id,shipping_vendor,shipping_method,one_item_rate,additional_item_rate) VALUES (3,'USPS','Priority Mail',8.50,4.25)
+
+INSERT INTO SHIPPING_RATE (product_id,shipping_vendor,shipping_method,one_item_rate,additional_item_rate) VALUES (3,'USPS','Express Mail',12,6)

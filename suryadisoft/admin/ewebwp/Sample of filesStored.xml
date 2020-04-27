@@ -1,0 +1,6 @@
+<files>
+	<imageStored srcURL="http://localhost/ewebwp/images/toolbar.gif">toolbar</imageStored>
+	<imageStored srcURL="/ewebwp/images/toolbar.gif">toolbar2</imageStored>
+	<linkStored linkURL="http://www.ektron.com">Ektron, Inc.</linkStored>
+	<linkStored linkURL="/ewebwp/userhelp.htm">User Help</linkStored>
+</files>

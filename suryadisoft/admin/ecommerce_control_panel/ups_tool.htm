@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>UPS Shipping Rate Calculation Tool</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<div align="center"><font size="+2"><strong>UPS Shipping Rate Calculation Tool 
+  </strong></font><strong></strong> </div>
+<form action="ups_rate.php" method="post" name="UPS" id="UPS">
+  <table border="0" cellspacing="0" cellpadding="5">
+    <tr>
+      <td align="right"><strong>Origin Region:</strong></td>
+      <td><select name="region" id="region">
+        <option selected>-Select Region-</option>
+        <option value="Eastern U.S.">Eastern U.S.</option>
+        <option value="Western U.S.">Western U.S.</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td align="right"><strong>Origin State: </strong></td>
+      <td><select name="origstate" id="origstate">
+        <option value="" selected>-Select State-</option>
+        <option value="AL">AL-Alabama </option>
+        <option value="AK">AK-Alaska </option>
+        <option value="AZ">AZ-Arizona </option>
+        <option value="AR">AR-Arkansas </option>
+        <option value="CA">CA-California </option>
+        <option value="CO">CO-Colorado </option>
+        <option value="CT">CT-Connecticut </option>
+        <option value="DC">DC-Washington D.C. </option>
+        <option value="DE">DE-Delaware </option>
+        <option value="FL">FL-Florida </option>
+        <option value="GA">GA-Georgia </option>
+        <option value="HI">HI-Hawaii </option>
+        <option value="ID">ID-Idaho </option>
+        <option value="IL">IL-Illinois </option>
+        <option value="IN">IN-Indiana </option>
+        <option value="IA">IA-Iowa </option>
+        <option value="KS">KS-Kansas </option>
+        <option value="KY">KY-Kentucky </option>
+        <option value="LA">LA-Louisiana </option>
+        <option value="ME">ME-Maine </option>
+        <option value="MD">MD-Maryland </option>
+        <option value="MA">MA-Massachusetts </option>
+        <option value="MI">MI-Michigan </option>
+        <option value="MN">MN-Minnesota </option>
+        <option value="MS">MS-Mississippi </option>
+        <option value="MO">MO-Missouri </option>
+        <option value="MT">MT-Montana </option>
+        <option value="NE">NE-Nebraska </option>
+        <option value="NV">NV-Nevada </option>
+        <option value="NH">NH-New Hampshire </option>
+        <option value="NJ">NJ-New Jersey </option>
+        <option value="NM">NM-New Mexico </option>
+        <option value="NY">NY-New York </option>
+        <option value="NC">NC-North Carolina </option>
+        <option value="ND">ND-North Dakota </option>
+        <option value="OH">OH-Ohio </option>
+        <option value="OK">OK-Oklahoma </option>
+        <option value="OR">OR-Oregon </option>
+        <option value="PA">PA-Pennsylvania </option>
+        <option value="PR">PR-Puerto Rico </option>
+        <option value="RI">RI-Rhode Island </option>
+        <option value="SC">SC-South Carolina </option>
+        <option value="SD">SD-South Dakota </option>
+        <option value="TN">TN-Tennessee </option>
+        <option value="TX">TX-Texas </option>
+        <option value="UT">UT-Utah </option>
+        <option value="VT">VT-Vermont </option>
+        <option value="VA">VA-Virginia </option>
+        <option value="WA">WA-Washington </option>
+        <option value="WV">WV-West Virginia </option>
+        <option value="WI">WI-Wisconsin </option>
+        <option value="WY">WY-Wyoming </option>
+            </select></td>
+    </tr>
+    <tr> 
+      <td align="right"> <p><strong>Origin Zip Code: </strong></p>
+        </td>
+      <td><input name="origzipcode" type="text" id="origzipcode3" size="5" maxlength="5"></td>
+    </tr>
+    <tr> 
+      <td align="right"><strong>Destination Zip Code:</strong></td>
+      <td><input name="destzipcode" type="text" id="destzipcode3" size="6" maxlength="6"></td>
+    </tr>
+    <tr>
+      <td align="right"><strong>Destination Country:</strong></td>
+      <td><input name="country" type="text" id="country" value="United States"></td>
+    </tr>
+    <tr> 
+      <td align="right"><strong>Weight:</strong></td>
+      <td><input name="weight" type="text" id="weight3" size="4">
+        lbs. (for letter, type &quot;letter&quot;)</td>
+    </tr>
+    <tr> 
+      <td align="right"><strong>Address Type:</strong></td>
+      <td><select name="address_type" id="select">
+          <option value="residential">Residential</option>
+          <option value="commercial">Commercial</option>
+        </select></td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <p align="center"> 
+    <input type="submit" name="Submit" value="Calculate Rate">
+    <input type="reset" name="Submit2" value="Reset">
+  </p>
+</form>
+</body>
+</html>

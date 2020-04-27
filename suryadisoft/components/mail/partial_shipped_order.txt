@@ -1,0 +1,38 @@
+<p>Dear $customer_first_name:</p>
+
+<p>The following item has been shipped:</p>
+<blockquote>
+<table cellpadding=5 cellspacing=0>
+<tr bgcolor="#CCCCCC">
+	<th>Item</th>
+	<th>Quantity</th>
+</tr>
+$shipped_items
+</table>
+</blockquote>
+<p>to</p> 
+<blockquote>
+$shipping_first_name $shipping_last_name<br>
+$shipping_address_1<br>
+$shipping_address_2<br>
+$shipping_city, $shipping_state $shipping_zip<br>
+$shipping_country
+</blockquote>
+<p>However, we have a back order on the following item:</p>
+<blockquote>
+<table cellpadding=5 cellspacing=0>
+<tr bgcolor="#CCCCCC">
+	<th>Item</th>
+	<th>Quantity</th>
+</tr>
+$back_ordered_items
+</table>
+</blockquote>
+<p>We will ship those item(s) as soon as it becomes available. We apologize for this inconvenience.</p>
+
+<p>If you have any questions or concern regarding your order, please contact us at $company_email</p>
+
+<p>Sincerely,</p>
+
+<p>$company_name<br>
+<a href="http://$company_url">http://$company_url</a></p>

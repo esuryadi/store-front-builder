@@ -1,0 +1,15 @@
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Contact Form','title','textfield','Contact Us','','Set the contact form title.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Contact Form','ask_name','choice','true','true,false','Whether or not asking the person name.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Contact Form','ask_address','choice','true','true,false','Whether or not asking the person address.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Contact Form','ask_phone','choice','true','true,false','Whether or not asking the person phone.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Contact Form','ask_email','choice','true','true,false','Whether or not asking the person email address.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Contact Form','ask_questions','choice','true','true,false','Whether or not let the person to ask questions.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Contact Form','mail_subject','textfield','Customer Inquiry','','Set the mail subject.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Contact Form','thank_message','textfield','Thank You for contacting us.','','Set the thank you message.')

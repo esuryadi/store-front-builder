@@ -1,0 +1,44 @@
+<center>
+<FORM METHOD="POST" NAME="digitalclock">
+<input type=text size=10 maxlength=256 name="text">
+</FORM>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+var timeStatus = null;
+var timeRun = false;
+
+function stop() {
+	if(timeRun)
+		clearTimeout(timeStatus);
+	timeRun = false;
+}
+
+function start() {
+// Make sure the clock is stopped
+	stop();
+	display();
+}
+
+function display() {
+	var time = new Date();
+	var hours = time.getHours();
+	var minutes = time.getMinutes();
+	var seconds = time.getSeconds();
+	var style = "" + ((hours > 12) ? hours - 12 : hours);
+	style = (style < 10)?"0" + style:style;
+	style  += ((minutes < 10) ? ":0" : ":") + minutes;
+	style  += ((seconds < 10) ? ":0" : ":") + seconds;
+	style  += (hours >= 12) ? " P.M." : " A.M.";
+	document.digitalclock.text.value = style
+	timerStatus = setTimeout("display()",1000);
+	timeRun = true;
+}
+
+//-->
+</SCRIPT>
+</center>
+
+<script language="JavaScript">
+start();
+</script>

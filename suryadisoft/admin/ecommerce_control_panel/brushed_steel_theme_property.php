@@ -1,0 +1,27 @@
+<? if ($theme_prop["name"] == "Tab Active Color" ||
+			 $theme_prop["name"] == "Tab Inactive Color" ||
+			 $theme_prop["name"] == "Table Header Background") {?>
+<select name="<?=$name?>">
+	<option value="bg-brushed_steel-aqua.gif" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "bg-brushed_steel-aqua.gif") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "bg-brushed_steel-aqua.gif") || $theme_prop["value"] == "bg-brushed_steel-aqua.gif") {?>selected<? }?>>Aqua</option>
+	<option value="bg-brushed_steel-blue.gif" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "bg-brushed_steel-blue.gif") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "bg-brushed_steel-blue.gif") || $theme_prop["value"] == "bg-brushed_steel-blue.gif") {?>selected<? }?>>Blue</option>
+	<option value="bg-brushed_steel-bronze.gif" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "bg-brushed_steel-bronze.gif") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "bg-brushed_steel-bronze.gif") || $theme_prop["value"] == "bg-brushed_steel-bronze.gif") {?>selected<? }?>>Bronze</option>
+	<option value="bg-brushed_steel-gold.gif" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "bg-brushed_steel-gold.gif") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "bg-brushed_steel-gold.gif") || $theme_prop["value"] == "bg-brushed_steel-gold.gif") {?>selected<? }?>>Gold</option>
+	<option value="bg-brushed_steel-purple.gif" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "bg-brushed_steel-purple.gif") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "bg-brushed_steel-purple.gif") || $theme_prop["value"] == "bg-brushed_steel-purple.gif") {?>selected<? }?>>Purple</option>
+	<option value="bg-brushed_steel-red.gif" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "bg-brushed_steel-red.gif") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "bg-brushed_steel-red.gif") || $theme_prop["value"] == "bg-brushed_steel-red.gif") {?>selected<? }?>>Red</option>
+	<option value="bg-brushed_steel-grey.gif" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "bg-brushed_steel-grey.gif") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "bg-brushed_steel-grey.gif") || $theme_prop["value"] == "bg-brushed_steel-grey.gif") {?>selected<? }?>>Grey</option>
+</select>
+<? } else if ($theme_prop["name"] == "Icon Color" ||
+							$theme_prop["name"] == "Bar 1 Color" ||
+			 				$theme_prop["name"] == "Table Border Color") {?>
+<select name="<?=$name?>">
+	<option value="#47ABB4" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "#47ABB4") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "#47ABB4") || $theme_prop["value"] == "#47ABB4") {?>selected<? }?>>Aqua</option>
+	<option value="#6B94BE" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "#6B94BE") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "#6B94BE") || $theme_prop["value"] == "#6B94BE") {?>selected<? }?>>Blue</option>
+	<option value="#AEA045" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "#AEA045") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "#AEA045") || $theme_prop["value"] == "#AEA045") {?>selected<? }?>>Bronze</option>
+	<option value="#D6A446" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "#D6A446") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "#D6A446") || $theme_prop["value"] == "#D6A446") {?>selected<? }?>>Gold</option>
+	<option value="#8351B4" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "#8351B4") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "#8351B4") || $theme_prop["value"] == "#8351B4") {?>selected<? }?>>Purple</option>
+	<option value="#C93035" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "#C93035") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "#C93035") || $theme_prop["value"] == "#C93035") {?>selected<? }?>>Red</option>
+	<option value="#A5A5A5" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "#A5A5A5") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "#A5A5A5") || $theme_prop["value"] == "#A5A5A5") {?>selected<? }?>>Grey</option>
+</select>
+<? } else {?>
+<input type="text" name="<?=$name?>" value="<? if (isset($prop[$name]) && !isset($DefaultSettings) && !isset($ChangeColorScheme)) {?><?=$prop[$name]?><? } else {?><?=$theme_prop["value"]?><? }?>">
+<? }?>

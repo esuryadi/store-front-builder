@@ -1,0 +1,23 @@
+INSERT INTO THEMES (theme_name,theme_directory,theme_filename) VALUES ('classic','classic','classic.php')
+
+INSERT INTO THEMES (theme_name,theme_directory,theme_filename) VALUES ('classic_2','classic_2','classic_2.php')
+
+INSERT INTO THEMES (theme_name,theme_directory,theme_filename) VALUES ('classic_3','classic_3','classic_3.php')
+
+INSERT INTO THEMES (theme_name,theme_directory,theme_filename) VALUES ('outlook','outlook','outlook.php')
+
+INSERT INTO THEMES (theme_name,theme_directory,theme_filename) VALUES ('brushed_steel','brushed_steel','brushed_steel.php')
+
+INSERT INTO THEMES (theme_name,theme_directory,theme_filename) VALUES ('techno','techno','techno.php')
+
+INSERT INTO THEMES (theme_name,theme_directory,theme_filename) VALUES ('swoosh','swoosh','swoosh.php')
+
+INSERT INTO THEMES (theme_name,theme_directory,theme_filename) VALUES ('cool_3D','cool_3D','cool_3D.php')
+
+INSERT INTO THEMES (theme_name,theme_directory,theme_filename) VALUES ('modern','modern','modern.php')
+
+INSERT INTO THEMES (theme_name,theme_directory,theme_filename) VALUES ('stylish','stylish','stylish.php')
+
+INSERT INTO THEMES (theme_name,theme_directory,theme_filename) VALUES ('outlook_2','outlook_2','outlook_2.php')
+
+INSERT INTO THEMES (theme_name,theme_directory,theme_filename) VALUES ('custom','custom','')

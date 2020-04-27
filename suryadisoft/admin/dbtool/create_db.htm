@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Create New Database</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language=javascript>	
+	function validateForm(form) {
+		var is_valid = true;
+		var err_msg = "";
+		
+		if (form.dbname.value == "") {
+			is_valid = false;
+			err_msg = "You haven't entered the database name\n";
+		} 
+		
+		if (!is_valid)
+			alert(err_msg);
+			
+		event.returnValue = is_valid;
+	}
+</script>
+</head>
+
+<body vlink="00aeef" bgcolor="#FFFFFF" text="#000000">
+<h1 align="center">Create New Database </h1>
+<p align="center">&nbsp;</p>
+<form name="form1" method="post" action="create_db.php">
+  <p>New Database Name: 
+    <input type="text" name="dbname">
+  </p>
+  <p align="center"> 
+    <input type="submit" name="Submit" value="Submit" onclick="validateForm(this.form);">
+    <input type="reset" name="Submit2" value="Reset">
+  </p>
+</form>
+</body>
+</html>

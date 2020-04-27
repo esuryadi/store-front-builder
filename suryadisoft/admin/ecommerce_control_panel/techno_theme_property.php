@@ -1,0 +1,23 @@
+<? if ($theme_prop["name"] == "Bar 1 Color" ||
+			 $theme_prop["name"] == "Table Header Background") {?>
+<select name="<?=$name?>">
+	<option value="bg_gradient-silver.gif" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "bg_gradient-silver.gif") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "bg_gradient-silver.gif") || $theme_prop["value"] == "bg_gradient-silver.gif") {?>selected<? }?>>Silver</option>
+	<option value="bg_gradient-aqua.gif" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "bg_gradient-aqua.gif") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "bg_gradient-aqua.gif") || $theme_prop["value"] == "bg_gradient-aqua.gif") {?>selected<? }?>>Aqua</option>
+	<option value="bg_gradient-blue.gif" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "bg_gradient-blue.gif") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "bg_gradient-blue.gif") || $theme_prop["value"] == "bg_gradient-blue.gif") {?>selected<? }?>>Blue</option>
+	<option value="bg_gradient-gold.gif" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "bg_gradient-gold.gif") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "bg_gradient-gold.gif") || $theme_prop["value"] == "bg_gradient-gold.gif") {?>selected<? }?>>Gold</option>
+	<option value="bg_gradient-purple.gif" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "bg_gradient-purple.gif") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "bg_gradient-purple.gif") || $theme_prop["value"] == "bg_gradient-purple.gif") {?>selected<? }?>>Purple</option>
+	<option value="bg_gradient-red.gif" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "bg_gradient-red.gif") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "bg_gradient-red.gif") || $theme_prop["value"] == "bg_gradient-red.gif") {?>selected<? }?>>Red</option>
+</select>
+<? } else if ($theme_prop["name"] == "Icon Color" ||
+			 				$theme_prop["name"] == "Table Border Color") {?>
+<select name="<?=$name?>">
+	<option value="#A5A5A5" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "#A5A5A5") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "#A5A5A5") || $theme_prop["value"] == "#A5A5A5") {?>selected<? }?>>Silver</option>
+	<option value="#4ABBED" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "#4ABBED") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "#4ABBED") || $theme_prop["value"] == "#4ABBED") {?>selected<? }?>>Aqua</option>
+	<option value="#6580F0" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "#6580F0") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "#6580F0") || $theme_prop["value"] == "#6580F0") {?>selected<? }?>>Blue</option>
+	<option value="#EDB74A" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "#EDB74A") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "#EDB74A") || $theme_prop["value"] == "#EDB74A") {?>selected<? }?>>Gold</option>
+	<option value="#E492F4" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "#E492F4") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "#E492F4") || $theme_prop["value"] == "#E492F4") {?>selected<? }?>>Purple</option>
+	<option value="#FF7F86" <? if ((isset($DefaultSettings) || isset($ChangeColorScheme)) && $theme_prop["value"] == "#FF7F86") {?>selected<? } else if ((isset($prop[$name]) && !isset($DefaultSettings) && $prop[$name] == "#FF7F86") || $theme_prop["value"] == "#FF7F86") {?>selected<? }?>>Red</option>
+</select>
+<? } else {?>
+<input type="text" name="<?=$name?>" value="<? if (isset($prop[$name]) && !isset($DefaultSettings) && !isset($ChangeColorScheme)) {?><?=$prop[$name]?><? } else {?><?=$theme_prop["value"]?><? }?>">
+<? }?>

@@ -1,0 +1,37 @@
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','width','textfield','400','','Set the applet width')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','height','textfield','30','','Set the applet height.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','text','textfield','','','Set the ticker string text.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','font_type','choice','TimesRoman','TimesRoman,Helvetica,Arial','Set the ticker font type.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','font_style','choice','default','default,bold,italic,bold & italic','Set the ticker font style.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','font_size','textfield','12','','Set the ticker font size.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','font_color','textfield','black','','Set the ticker font color. You can use the html pre-defined color or html hexadecimal color code.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','background','textfield','white','','Set the ticker color background. You can use the HTML pre-defined color or HTML hexadecimal color code.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','no_border','choice','true','true,false','Set if you want to add border around the ticker or not.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','border_color','textfield','gray','','Set the ticker border color. You can use the HTML pre-defined color or HTML hexadecimal color code.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','border_size','textfield','5','','Set the ticker border size.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','url_link','textfield','','','Set the url link when user click on the ticker.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','url_target','choice','new_window','_self,_parent,new_window','Set the url link target.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','speed','choice','normal','slow,normal,fast','Set the speed of the ticker.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','img_url_base','textfield','http://','','Set the image URL base.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','img_url_link','list','','','Set the image url link.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','show_button','choice','false','true,false','Show the ticker directional button.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','type','choice','text','text,image','Set the type of the ticker.')
+
+INSERT INTO COMPONENT_PROPERTIES (component_name,property_name,property_type,property_default_value,property_option_values,property_description) VALUES ('Ticker Applet','images','list','','','Set the ticker images.')

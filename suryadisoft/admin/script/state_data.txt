@@ -1,0 +1,103 @@
+INSERT INTO STATE (short_name,long_name,country) VALUES ('AL','Alabama','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('AK','Alaska','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('AZ','Arizona','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('AR','Arkansas','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('CA','California','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('CO','Colorado','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('CT','Connecticut','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('DC','Washington','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('DE','Delaware','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('FL','Florida','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('GA','Georgia','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('HI','Hawaii','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('ID','Idaho','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('IL','Illinois','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('IN','Indiana','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('IA','Iowa','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('KS','Kansas','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('KY','Kentucky','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('LA','Louisiana','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('ME','Maine','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('MD','Maryland','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('MA','Massachusetts','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('MI','Michigan','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('MN','Minnesota','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('MS','Mississippi','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('MO','Missouri','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('MT','Montana','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('NE','Nebraska','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('NV','Nevada','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('NH','New Hampshire','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('NJ','New Jersey','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('NM','New Mexico','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('NY','New York','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('NC','North Carolina','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('ND','North Dakota','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('OH','Ohio','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('OK','Oklahoma','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('OR','Oregon','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('PA','Pennsylvania','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('PR','Puerto Rico','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('RI','Rhode Island','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('SC','South Carolina','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('SD','South Dakota','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('TN','Tennessee','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('TX','Texas','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('UT','Utah','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('VT','Vermont','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('VA','Virginia','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('WA','Washington','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('WV','West Virginia','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('WI','Wisconsin','United States')
+
+INSERT INTO STATE (short_name,long_name,country) VALUES ('WY','Wyoming','United States')

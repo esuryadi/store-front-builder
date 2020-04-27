@@ -1,0 +1,20 @@
+Dear $first_name $last_name:
+
+Thank You for joining our referral program. You can earn 25% out of our setup fee when somebody sign-up using your referral id.
+
+Below are the code snippet that you can add as a link in your website:
+
+<!- SuryadiSoft Logo ->
+<a href=\"https://www.suryadisoft.net/suryadisoft.php?page=Pricing&subpage=StoreOrderForm&subscription_package=professional&referral_id=$email\"><img src=\"http://www.suryadisoft.net/images/banner_ad1.gif\" border=0></a>
+<!- End of Logo Code ->
+
+<!- SuryadiSoft Logo ->
+<a href=\"https://www.suryadisoft.net/suryadisoft.php?page=Pricing&subpage=StoreOrderForm&subscription_package=professional&referral_id=$email\"><img src=\"http://www.suryadisoft.net/images/banner_ad2.gif\" border=0></a>
+<!- End of Logo Code ->
+		
+Sincerely,
+
+Edward Suryadi
+President
+webmaster@suryadisoft.net
+http://www.suryadisoft.net

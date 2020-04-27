@@ -1,0 +1,47 @@
+INSERT INTO PRODUCT (product_name, product_description, product_isbn, product_quantity , product_retail_price , product_price , product_image_small , product_image_medium , product_image_large , product_main_category , product_sub_category_1 , product_sub_category_2 , product_other_category , product_condition, product_color_choices , product_size_choices , product_other_choices , product_weight , product_length , product_width , product_height , related_products) SELECT product_name, product_description, product_isbn, product_quantity , product_retail_price , product_price , product_image_small , product_image_medium , product_image_large , product_main_category , product_sub_category_1 , product_sub_category_2 , product_other_category , product_condition, product_color_choices , product_size_choices , product_other_choices , product_weight , product_length , product_width , product_height , related_products FROM $trial_db.PRODUCT
+
+INSERT INTO USER (user_id , user_password , user_email , user_first_name , user_last_name) SELECT user_id , user_password , user_email , user_first_name , user_last_name FROM $trial_db.USER
+
+INSERT INTO CUSTOMER (user_id , customer_first_name , customer_mi_name , customer_last_name , customer_email , customer_phone_day , customer_phone_evening , customer_fax , customer_address_1 , customer_address_2 , customer_city , customer_state , customer_zip , customer_country) SELECT user_id , customer_first_name , customer_mi_name , customer_last_name , customer_email , customer_phone_day , customer_phone_evening , customer_fax , customer_address_1 , customer_address_2 , customer_city , customer_state , customer_zip , customer_country FROM $trial_db.CUSTOMER
+
+INSERT INTO SHIPPING (customer_id , shipping_method , shipping_rate , shipping_first_name , shipping_mi_name , shipping_last_name , shipping_address_1 , shipping_address_2 , shipping_city , shipping_state , shipping_zip , shipping_country) SELECT customer_id , shipping_method , shipping_rate , shipping_first_name , shipping_mi_name , shipping_last_name , shipping_address_1 , shipping_address_2 , shipping_city , shipping_state , shipping_zip , shipping_country FROM $trial_db.SHIPPING
+
+INSERT INTO SHIPPING_VENDOR (shipping_vendor_name , shipping_vendor_method) SELECT shipping_vendor_name , shipping_vendor_method FROM $trial_db.SHIPPING_VENDOR
+
+INSERT INTO SHIPPING_RATE (product_id , shipping_vendor , shipping_method , one_item_rate , additional_item_rate , state , city , zip , country) SELECT product_id , shipping_vendor , shipping_method , one_item_rate , additional_item_rate , state , city , zip , country FROM $trial_db.SHIPPING_RATE
+
+INSERT INTO TRANSACTION (invoice_number , customer_id , billing_id , shipping_id , transaction_subtotal_charge , transaction_shipping_charge , transaction_tax_charge , transaction_total_charge , transaction_date_time , transaction_status , transaction_tracking_number) SELECT invoice_number , customer_id , billing_id , shipping_id , transaction_subtotal_charge , transaction_shipping_charge , transaction_tax_charge , transaction_total_charge , transaction_date_time , transaction_status , transaction_tracking_number FROM $trial_db.TRANSACTION
+
+INSERT INTO SALES_TAX (sales_tax_state , sales_tax_rate) SELECT sales_tax_state , sales_tax_rate FROM $trial_db.SALES_TAX
+
+INSERT INTO PURCHASE (customer_id , transaction_id , product_id , product_color , product_size , product_choice , purchase_quantity , purchase_charge , purchase_status) SELECT customer_id , transaction_id , product_id , product_color , product_size , product_choice , purchase_quantity , purchase_charge , purchase_status FROM $trial_db.PURCHASE
+
+INSERT INTO BILLING (customer_id , billing_first_name , billing_mi_name , billing_last_name , account_number , cc_exp_date , cc_ver_code , payment_type , billing_address_1 , billing_address_2 , billing_city , billing_state , billing_zip , billing_country , billing_phone) SELECT customer_id , billing_first_name , billing_mi_name , billing_last_name , account_number , cc_exp_date , cc_ver_code , payment_type , billing_address_1 , billing_address_2 , billing_city , billing_state , billing_zip , billing_country , billing_phone FROM $trial_db.BILLING
+
+INSERT INTO SHOPPING_CART (user_id , product_id , product_color , product_size , product_choice , shopping_cart_quantity) SELECT user_id , product_id , product_color , product_size , product_choice , shopping_cart_quantity FROM $trial_db.SHOPPING_CART
+
+INSERT INTO WISH_LIST (user_id , product_id , product_color , product_size , product_choice , wish_list_quantity) SELECT user_id , product_id , product_color , product_size , product_choice , wish_list_quantity FROM $trial_db.WISH_LIST
+
+INSERT INTO WEB_CONTENT (component_name , title , filename , type , position , sequence , component_type , category , style) SELECT component_name , title , filename , type , position , sequence , component_type , category , style FROM $trial_db.WEB_CONTENT
+
+INSERT INTO PRODUCT_GROUP (group_name) SELECT group_name FROM $trial_db.PRODUCT_GROUP
+
+INSERT INTO CATEGORIES (categories_main , categories_sub_1 , categories_sub_2) SELECT categories_main , categories_sub_1 , categories_sub_2 FROM $trial_db.CATEGORIES
+
+INSERT INTO PROPERTY (property_name , property_value) SELECT property_name , property_value FROM $trial_db.PROPERTY
+
+INSERT INTO LINK (link_type , link_text, link_img_src , link_url , link_position , link_target , sequence) SELECT link_type , link_text, link_img_src , link_url , link_position , link_target , sequence FROM $trial_db.LINK
+
+INSERT INTO MAIN_CATEGORY (category , sequence) SELECT category , sequence FROM $trial_db.MAIN_CATEGORY
+
+INSERT INTO PRODUCT_COUPON (coupon_id , product_id , discount_type , coupon_value , exp_date) SELECT coupon_id , product_id , discount_type , coupon_value , exp_date FROM $trial_db.PRODUCT_COUPON
+
+INSERT INTO SHIPPING_RATE_2 (shipping_vendor , shipping_method , total_purchase_low , total_purchase_high , zip_code_low , zip_code_high , rate_type , shipping_rate) SELECT shipping_vendor , shipping_method , total_purchase_low , total_purchase_high , zip_code_low , zip_code_high , rate_type , shipping_rate FROM $trial_db.SHIPPING_RATE_2
+
+INSERT INTO SPECIAL_PRICING (user_id , product_id , product_price) SELECT user_id , product_id , product_price FROM $trial_db.SPECIAL_PRICING
+
+INSERT INTO PRODUCT_IMAGES_GALLERY (product_id , product_image_src) SELECT product_id , product_image_src FROM $trial_db.PRODUCT_IMAGES_GALLERY
+
+INSERT INTO VOLUME_DISCOUNT (id , discount_by , volume_low , volume_high , discount_type , discount_rate) SELECT id , discount_by , volume_low , volume_high , discount_type , discount_rate FROM $trial_db.VOLUME_DISCOUNT
+
+INSERT INTO AFFILIATE (affiliate_id , affiliate_name , affiliate_address , affiliate_city , affiliate_state , affiliate_zip , affiliate_country , affiliate_phone , affiliate_email , affiliate_referral_hits , affiliate_referral_purchase , affiliate_commission , affiliate_paid_commission) SELECT affiliate_id , affiliate_name , affiliate_address , affiliate_city , affiliate_state , affiliate_zip , affiliate_country , affiliate_phone , affiliate_email , affiliate_referral_hits , affiliate_referral_purchase , affiliate_commission , affiliate_paid_commission FROM $trial_db.AFFILIATE

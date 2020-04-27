@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--
+	Ektron, Inc.
+	Revision Date: 2002-Dec-30
+-->
+<html>
+<head>
+<title>eWebWP</title>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+
+<!--
+	This file is the default popup page. See ewebwpdefaults.js.
+-->
+<script language="JavaScript1.2" type="text/javascript" src="ewebwp.js"></script>
+<script language="JavaScript1.2" type="text/javascript">
+<!--
+if (eWebWP)
+{
+	var objQuery = eWebWP.parseQuery();
+	if (objQuery["popupinclude"])
+	{
+		document.writeln('<scr'+'ipt language="JavaScript1.2" type="text/javascript" src="' + objQuery["popupinclude"] + '"></scr'+'ipt>');
+	}
+}
+// -->
+</script>
+</head>
+<body>
+
+<!--
+	A form element is required to include eWebWP in a web page.
+-->
+<form>
+
+<!--
+	The following JavaScript places the eWebWP in the web page.
+	
+	The name does not matter, but may be used to access the Flash editor in JavaScript.
+	In this example, the Flash editor may be accessed using eWebWP.instances["eWebWPPopUpEditor"].editor. 		
+	
+-->
+<script language="JavaScript1.2" type="text/javascript">
+<!--
+	eWebWP.create("eWebWPPopUpEditor", 550, 400);
+	function popup_onsubmit()
+	{
+		return false;
+	}
+	
+	function closeNoSave()
+	{
+		// Avoid copying the content back to the main page during onunload.
+		eWebEditPro.actionOnUnload = EWEP_ONUNLOAD_NOSAVE;
+		top.close();
+	}
+	var strCancel = "Cancel";
+	if (eWebEditProMessages.cancelButtonCaption)
+	{
+		strCancel = eWebEditProMessages.cancelButtonCaption;
+	}
+	document.writeln('<p><center>');
+	document.writeln('<input type="button" name="cancel" value="' + strCancel + '" onclick="closeNoSave()">');
+	document.writeln('<br></center></p>');
+//-->
+</SCRIPT>
+</form>
+</body>
+</html>

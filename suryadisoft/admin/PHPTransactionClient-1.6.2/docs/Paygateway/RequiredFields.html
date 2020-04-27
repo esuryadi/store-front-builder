@@ -1,0 +1,352 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0057)http://www.paygateway.com/tech/references/req_fields.html -->
+<HTML><HEAD><TITLE>Required Fields - PHP Transaction Client</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 6.00.2716.2200" name=GENERATOR></HEAD>
+<BODY bgcolor="#FFFFFF">
+		<!-- ========== START OF NAVBAR ========== -->
+		<A NAME="navbar_top"><!-- --></A>
+		<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0">
+			<TR>
+				
+    <TD ALIGN="right" VALIGN="top" ROWSPAN="3"><EM> <b><i>PHP&nbsp;Transaction 
+      Client v1.6.1 API Specification</i></b></EM> </TD>
+			</TR>
+		</TABLE>
+		<!-- =========== END OF NAVBAR =========== -->
+		<HR>
+<BLOCKQUOTE>
+  <h2>Required Fields </h2>
+  <P><A 
+  href="#auth">Authorization</A> 
+    | <A 
+  href="#capture">Capture</A> 
+    | <A 
+  href="#credit">Credit</A> 
+    | <A 
+  href="#sale">Sale</A> 
+    | <A 
+  href="#void">Void</A>&nbsp;&nbsp;(Accessed 
+    via the <a href="TransactionRequest.html#doTransaction"><code>doTransaction()</code></a> 
+    method)</P>
+  <P><A 
+  href="#settle">Settle</A> 
+    | <A 
+  href="#purge">Purge</A> 
+    | <A 
+  href="#totals">Totals</A>&nbsp;&nbsp;(Accessed 
+    via the <a href="TransactionRequest.html#doBatchTransaction"><code>doBatchTransaction()</code></a> 
+    method)</P>
+  <P>Minimum required fields for an <B><A name=auth>AUTH</A></B> transaction:<BR>
+  <TABLE border=1>
+    <TBODY> 
+    <TR> 
+      <TD><B>Field</B></TD>
+      <TD><b>Setter method</b></TD>
+    </TR>
+    <TR> 
+      <TD>account token</TD>
+      <TD><a href="TransactionRequest.html#setAccountToken"><code>setAccountToken()</code></a></TD>
+    </TR>
+    <TR> 
+      <TD>credit card number</TD>
+      <TD><a href="TransactionRequest.html#setCreditCardNumber"><code>setCreditCardNumber()</code></a></TD>
+    </TR>
+    <TR> 
+      <TD>expire month</TD>
+      <TD><a href="TransactionRequest.html#setExpireMonth"><code>setExpireMonth()</code></a></TD>
+    </TR>
+    <TR> 
+      <TD>expire year</TD>
+      <TD><a href="TransactionRequest.html#setExpireYear"><code>setExpireYear()</code></a></TD>
+    </TR>
+    <TR> 
+      <TD>charge type</TD>
+      <TD><a href="TransactionRequest.html#setChargeType"><code>setChargeType(AUTH)</code></a> 
+      </TD>
+    </TR>
+    <TR> 
+      <TD>charge total</TD>
+      <TD><a href="TransactionRequest.html#setChargeTotal"><code>setChargeTotal()</code></a></TD>
+    </TR>
+    </TBODY> 
+  </TABLE>
+  <P>Minimum required fields for a <B><A name=capture>CAPTURE</A></B> transaction:<BR>
+  <TABLE border=1>
+    <TBODY> 
+    <TR> 
+      <TD><B>Field</B></TD>
+      <TD><b>Setter method</b></TD>
+    </TR>
+    <tr> 
+      <td>account token</td>
+      <td><a href="TransactionRequest.html#setAccountToken"><code>setAccountToken()</code></a></td>
+    </tr>
+    <TR> 
+      <TD>charge type</TD>
+      <TD><a href="TransactionRequest.html#setChargeType"><code>setChargeType(CAPTURE) 
+        </code> </a></TD>
+    </TR>
+    <TR> 
+      <TD>charge total</TD>
+      <TD><a href="TransactionRequest.html#setChargeTotal"><code>setChargeTotal()</code></a></TD>
+    </TR>
+    <TR> 
+      <TD>order number</TD>
+      <TD><a href="TransactionRequest.html#setOrderID"><code>setOrderID()</code></a></TD>
+    </TR>
+    </TBODY> 
+  </TABLE>
+  <BR>Note - The order id and the 
+  capture reference id must be from the same authorization transaction. 
+  <P>Minimum required fields for a <B><A name=sale>SALE</A></B> transaction:<BR>
+  <TABLE border=1>
+    <TBODY> 
+    <TR> 
+      <TD><B>Field</B></TD>
+      <TD><b>Setter method</b></TD>
+    </TR>
+    <tr> 
+      <td>account token</td>
+      <td><a href="TransactionRequest.html#setAccountToken"><code>setAccountToken()</code></a></td>
+    </tr>
+    <TR> 
+      <TD>credit card number</TD>
+      <TD><a href="TransactionRequest.html#setCreditCardNumber"><code>setCreditCardNumber()</code></a></TD>
+    </TR>
+    <TR> 
+      <TD>expire month</TD>
+      <TD><a href="TransactionRequest.html#setExpireMonth"><code>setExpireMonth()</code></a></TD>
+    </TR>
+    <TR> 
+      <TD>expire year</TD>
+      <TD><a href="TransactionRequest.html#setExpireYear"><code>setExpireYear()</code></a></TD>
+    </TR>
+    <TR> 
+      <TD>charge type</TD>
+      <TD><a href="TransactionRequest.html#setChargeType"><code>setChargeType(SALE)</code> 
+        </a></TD>
+    </TR>
+    <TR> 
+      <TD>charge total</TD>
+      <TD><a href="TransactionRequest.html#setChargeTotal"><code>setChargeTotal()</code></a></TD>
+    </TR>
+    </TBODY> 
+  </TABLE>
+  <P>Minimum required fields for a <B><A name=void>VOID</A></B> transaction:<BR>
+  <TABLE border=1>
+    <TBODY> 
+    <TR> 
+      <TD><B>Field</B></TD>
+      <TD><b>Setter method</b></TD>
+    </TR>
+    <tr> 
+      <td>account token</td>
+      <td><a href="TransactionRequest.html#setAccountToken"><code>setAccountToken()</code></a></td>
+    </tr>
+    <TR> 
+      <TD>charge type</TD>
+      <TD><a href="TransactionRequest.html#setChargeType"><code>setChargeType(VOID) 
+        </code> </a></TD>
+    </TR>
+    <TR> 
+      <TD>order number</TD>
+      <TD><a href="TransactionRequest.html#setOrderID"><code>setOrderID()</code></a></TD>
+    </TR>
+    </TBODY> 
+  </TABLE>
+  <p>Minimum required fields for a <b><a name=void>VOID_AUTH, VOID_CAPTURE, VOID_CREDIT</a></b> 
+    transaction:<br>
+
+  <table border=1>
+    <tbody> 
+    <tr> 
+      <td><b>Field</b></td>
+      <td><b>Setter method</b></td>
+    </tr>
+    <tr> 
+      <td>account token</td>
+      <td><a href="TransactionRequest.html#setAccountToken"><code>setAccountToken()</code></a></td>
+    </tr>
+    <tr> 
+      <td>charge type</td>
+      <td><a href="TransactionRequest.html#setChargeType"><code>setChargeType() 
+        </code> </a></td>
+    </tr>
+    <tr> 
+      <td>order number</td>
+      <td><a href="TransactionRequest.html#setOrderID"><code>setOrderID()</code></a></td>
+    </tr>
+    <tr>
+      <td>reference ID</td>
+      <td><a href="TransactionRequest.html#setReferenceID"><code>setReferenceID()</code></a></td>
+    </tr>
+    </tbody> 
+  </table>
+  <P>Minimum required fields for a <B><A 
+  name=credit>CREDIT</A></B> transaction: 
+  <TABLE border=1>
+    <TBODY> 
+    <TR> 
+      <TD><B>Field</B></TD>
+      <TD><b>Setter method</b></TD>
+    </TR>
+    <tr> 
+      <td>account token</td>
+      <td><a href="TransactionRequest.html#setAccountToken"><code>setAccountToken()</code></a></td>
+    </tr>
+    <TR> 
+      <TD width=143>credit card number</TD>
+      <TD><a href="TransactionRequest.html#setCreditCardNumber"><code>setCreditCardNumber()</code></a></TD>
+    </TR>
+    <TR> 
+      <TD width=143>expire month</TD>
+      <TD><a href="TransactionRequest.html#setExpireMonth"><code>setExpireMonth()</code></a></TD>
+    </TR>
+    <TR> 
+      <TD width=143>expire year</TD>
+      <TD><a href="TransactionRequest.html#setExpireYear"><code>setExpireYear()</code></a></TD>
+    </TR>
+    <TR> 
+      <TD width=143>charge type</TD>
+      <TD><a href="TransactionRequest.html#setChargeType"><code>setChargeType(CREDIT)</code></a></TD>
+    </TR>
+    <TR> 
+      <TD width=143>charge total</TD>
+      <TD><a href="TransactionRequest.html#setChargeTotal"><code>setChargeTotal()</code></a></TD>
+    </TR>
+    <TR> 
+      <TD width=143>order number</TD>
+      <TD><a href="TransactionRequest.html#setOrderID"><code>setOrderID()</code></a></TD>
+    </TR>
+    </TBODY> 
+  </TABLE>
+  <p>Minimum required fields for a <b><a name=sale>CREATE_ORDER</a></b> transaction:<br>
+  <table border=1>
+    <tbody> 
+    <tr> 
+      <td><b>Field</b></td>
+      <td><b>Setter method</b></td>
+    </tr>
+    <tr> 
+      <td>account token</td>
+      <td><a href="TransactionRequest.html#setAccountToken"><code>setAccountToken()</code></a></td>
+    </tr>
+    <tr> 
+      <td>credit card number</td>
+      <td><a href="TransactionRequest.html#setCreditCardNumber"><code>setCreditCardNumber()</code></a></td>
+    </tr>
+    <tr> 
+      <td>expire month</td>
+      <td><a href="TransactionRequest.html#setExpireMonth"><code>setExpireMonth()</code></a></td>
+    </tr>
+    <tr> 
+      <td>expire year</td>
+      <td><a href="TransactionRequest.html#setExpireYear"><code>setExpireYear()</code></a></td>
+    </tr>
+    <tr> 
+      <td>charge type</td>
+      <td><a href="TransactionRequest.html#setChargeType"><code>setChargeType(CREATE_ORDER)</code> 
+        </a></td>
+    </tr>
+    <tr> 
+      <td>charge total</td>
+      <td><a href="TransactionRequest.html#setChargeTotal"><code>setChargeTotal()</code></a></td>
+    </tr>
+    </tbody> 
+  </table>
+  <p>Minimum required fields for a <b><a name=sale>CANCEL_ORDER</a></b> transaction:<br>
+  <table border=1>
+    <tbody> 
+    <tr> 
+      <td><b>Field</b></td>
+      <td><b>Setter method</b></td>
+    </tr>
+    <tr> 
+      <td>account token</td>
+      <td><a href="TransactionRequest.html#setAccountToken"><code>setAccountToken()</code></a></td>
+    </tr>
+    <tr> 
+      <td>order number</td>
+      <td><a href="TransactionRequest.html#setOrderID"><code>setOrderID()</code></a></td>
+    </tr>
+    </tbody> 
+  </table>
+  <p>Minimum required fields for a <b><a name=sale>CLOSE_ORDER</a></b> transaction:<br>
+  <table border=1>
+    <tbody> 
+    <tr> 
+      <td><b>Field</b></td>
+      <td><b>Setter method</b></td>
+    </tr>
+    <tr> 
+      <td>account token</td>
+      <td><a href="TransactionRequest.html#setAccountToken"><code>setAccountToken()</code></a></td>
+    </tr>
+    <tr> 
+      <td>order number</td>
+      <td><a href="TransactionRequest.html#setOrderID"><code>setOrderID()</code></a></td>
+    </tr>
+    </tbody> 
+  </table>
+  <P>Minimum required fields for a <B><A 
+  name=settle>SETTLE</A></B> batch action: 
+  <TABLE border=1>
+    <TBODY> 
+    <TR> 
+      <TD><B>Field</B></TD>
+      <TD><b>Setter method</b></TD>
+    </TR>
+    <tr> 
+      <td>account token</td>
+      <td><a href="TransactionRequest.html#setAccountToken"><code>setAccountToken()</code></a></td>
+    </tr>
+    <tr> 
+      <td width=143>charge type</td>
+      <td><a href="TransactionRequest.html#setAction"><code>setAction(SETTLE)</code></a></td>
+    </tr>
+    </TBODY> 
+  </TABLE>
+  <P>Minimum required fields for a <B><A 
+  name=totals>TOTALS</A></B> batch action: 
+  <TABLE border=1>
+    <TBODY> 
+    <TR> 
+      <TD><B>Field</B></TD>
+      <TD><b>Setter method</b></TD>
+    </TR>
+    <tr> 
+      <td>account token</td>
+      <td><a href="TransactionRequest.html#setAccountToken"><code>setAccountToken()</code></a></td>
+    </tr>
+    <tr> 
+      <td width=143>charge type</td>
+      <td><a href="TransactionRequest.html#setAction"><code>setAction(TOTALS)</code></a></td>
+    </tr>
+    <TR> 
+      <TD width=143>Batch ID</TD>
+      <TD><a href="TransactionRequest.html#setBatchID"><code>setBatchID()</code></a></TD>
+    </TR>
+    </TBODY> 
+  </TABLE>
+  
+  <p>Minimum required fields for a <b><a 
+  name=purge>PURGE</a></b> batch action: <BR>
+  <table border=1>
+    <tbody> 
+    <tr> 
+      <td><b>Field</b></td>
+      <td><b>Setter method</b></td>
+    </tr>
+    <tr> 
+      <td>account token</td>
+      <td><a href="TransactionRequest.html#setAccountToken"><code>setAccountToken()</code></a></td>
+    </tr>
+    <tr> 
+      <td width=143>charge type</td>
+      <td><a href="TransactionRequest.html#setAction"><code>setAction(PURGE)</code></a></td>
+    </tr>
+    </tbody> 
+  </table>
+</BLOCKQUOTE>
+</BODY></HTML>
